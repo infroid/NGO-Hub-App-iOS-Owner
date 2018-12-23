@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="volunteerCell" rowHeight="48" id="KGk-i7-Jjw" customClass="volunteerCell" customModule="ngo_hub_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eI-0J-I7p">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sv2-0g-0RB">
+                                <rect key="frame" x="48" y="14" width="256" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="myo-9t-nt3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kas-wD-Tgy" customClass="DesignabelView" customModule="ngo_hub_2" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="32" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="FRW-CU-dgf"/>
+                                    <constraint firstAttribute="width" constant="32" id="jl5-QX-4hu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="BorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="ShadowColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ShadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.40000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="ShadowOffSet">
+                                        <size key="value" width="0.5" height="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Kas-wD-Tgy" secondAttribute="bottom" constant="8" id="Bb7-ru-AEZ"/>
+                            <constraint firstItem="sv2-0g-0RB" firstAttribute="centerY" secondItem="Kas-wD-Tgy" secondAttribute="centerY" id="Gd3-L7-N2g"/>
+                            <constraint firstAttribute="trailing" secondItem="sv2-0g-0RB" secondAttribute="trailing" constant="16" id="Hf1-Ma-vHM"/>
+                            <constraint firstItem="Kas-wD-Tgy" firstAttribute="leading" secondItem="6eI-0J-I7p" secondAttribute="leading" constant="8" id="TJt-7f-BIq"/>
+                            <constraint firstItem="sv2-0g-0RB" firstAttribute="leading" secondItem="Kas-wD-Tgy" secondAttribute="trailing" constant="8" id="Ttx-6V-l96"/>
+                            <constraint firstItem="Kas-wD-Tgy" firstAttribute="top" secondItem="6eI-0J-I7p" secondAttribute="top" constant="8" id="dRa-XG-8HY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="6eI-0J-I7p" secondAttribute="bottom" id="16F-8N-vWI"/>
+                    <constraint firstAttribute="trailing" secondItem="6eI-0J-I7p" secondAttribute="trailing" id="V7N-lH-8oN"/>
+                    <constraint firstItem="6eI-0J-I7p" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VK1-yj-563"/>
+                    <constraint firstItem="6eI-0J-I7p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bVI-dw-FCN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="colorView" destination="Kas-wD-Tgy" id="mZf-Or-fQ7"/>
+                <outlet property="nameLabel" destination="sv2-0g-0RB" id="JKj-S4-Abt"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="133"/>
+        </tableViewCell>
+    </objects>
+</document>

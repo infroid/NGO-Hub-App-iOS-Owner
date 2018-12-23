@@ -1,0 +1,30 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - Parchment (1.4.1)
+  - TextFieldEffects (1.5.1)
+  - XJYChart (2.3.5):
+    - Colours (= 5.13.0)
+
+DEPENDENCIES:
+  - Parchment
+  - TextFieldEffects
+  - XJYChart
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Colours
+    - Parchment
+    - TextFieldEffects
+    - XJYChart
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  Parchment: e6c2a3a0063739382dd207e21d48fe5e81f3324a
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
+  XJYChart: 38f7412be14cfdcc95f7b4b78aaa3fb96dc28a61
+
+PODFILE CHECKSUM: 96b847cf7a0f12dc9a0294e66dc0f58826048aa1
+
+COCOAPODS: 1.5.3

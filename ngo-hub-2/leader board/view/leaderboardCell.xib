@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="leaderboardCell" rowHeight="112" id="KGk-i7-Jjw" customClass="leaderboardCell" customModule="ngo_hub_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="511" height="111.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j2w-Dh-a0X" customClass="DesignabelView" customModule="ngo_hub_2" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="495" height="96"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sam.png" translatesAutoresizingMaskIntoConstraints="NO" id="wvU-et-1jh">
+                                <rect key="frame" x="8" y="8" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="5wZ-Tx-3h9"/>
+                                    <constraint firstAttribute="width" constant="80" id="hRT-Eu-RCq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ngo Name" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwg-Sb-hRc">
+                                <rect key="frame" x="96" y="8" width="391" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="KLS-Vx-9wu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.29803921570000003" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contributions :" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mK-vC-YWZ">
+                                <rect key="frame" x="96" y="41" width="391" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Xpg-fL-tou"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.29803921570000003" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Members :" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTK-jE-wa9">
+                                <rect key="frame" x="97" y="69" width="390" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="hVo-A9-vON"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.29803921570000003" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Cwg-Sb-hRc" firstAttribute="top" secondItem="j2w-Dh-a0X" secondAttribute="top" constant="8" id="7QJ-d0-JAx"/>
+                            <constraint firstItem="ZTK-jE-wa9" firstAttribute="top" secondItem="0mK-vC-YWZ" secondAttribute="bottom" constant="8" id="7bV-ih-cLO"/>
+                            <constraint firstAttribute="trailing" secondItem="0mK-vC-YWZ" secondAttribute="trailing" constant="8" id="8XK-hL-8gN"/>
+                            <constraint firstItem="wvU-et-1jh" firstAttribute="top" secondItem="j2w-Dh-a0X" secondAttribute="top" constant="8" id="D8p-n3-elA"/>
+                            <constraint firstItem="0mK-vC-YWZ" firstAttribute="top" secondItem="Cwg-Sb-hRc" secondAttribute="bottom" constant="8" id="Fbe-Zg-uJY"/>
+                            <constraint firstAttribute="trailing" secondItem="ZTK-jE-wa9" secondAttribute="trailing" constant="8" id="RKK-sX-aqh"/>
+                            <constraint firstAttribute="trailing" secondItem="Cwg-Sb-hRc" secondAttribute="trailing" constant="8" id="SuB-Mo-MMA"/>
+                            <constraint firstItem="Cwg-Sb-hRc" firstAttribute="leading" secondItem="wvU-et-1jh" secondAttribute="trailing" constant="8" id="WyD-yz-G3y"/>
+                            <constraint firstAttribute="bottom" secondItem="wvU-et-1jh" secondAttribute="bottom" constant="8" id="iOA-4f-NIB"/>
+                            <constraint firstItem="0mK-vC-YWZ" firstAttribute="leading" secondItem="wvU-et-1jh" secondAttribute="trailing" constant="8" id="vI9-M3-VuE"/>
+                            <constraint firstItem="ZTK-jE-wa9" firstAttribute="leading" secondItem="wvU-et-1jh" secondAttribute="trailing" constant="9" id="yWS-WP-adm"/>
+                            <constraint firstItem="wvU-et-1jh" firstAttribute="leading" secondItem="j2w-Dh-a0X" secondAttribute="leading" constant="8" id="yds-U9-pgF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="ShadowColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="ShadowOffSet">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="ShadowRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.40000000000000002"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="j2w-Dh-a0X" secondAttribute="trailing" constant="8" id="MjM-0m-SFG"/>
+                    <constraint firstItem="j2w-Dh-a0X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Oxe-t0-daz"/>
+                    <constraint firstItem="j2w-Dh-a0X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ct2-PU-9fg"/>
+                    <constraint firstAttribute="bottom" secondItem="j2w-Dh-a0X" secondAttribute="bottom" constant="8" id="evu-CV-Ola"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ngoContributionLabel" destination="0mK-vC-YWZ" id="3kF-aC-Aqz"/>
+                <outlet property="ngoImageView" destination="wvU-et-1jh" id="RQ4-EU-yDn"/>
+                <outlet property="ngoMemberLabel" destination="ZTK-jE-wa9" id="F1F-wf-dRx"/>
+                <outlet property="ngoName" destination="Cwg-Sb-hRc" id="A4u-2R-8Kc"/>
+            </connections>
+            <point key="canvasLocation" x="47.5" y="-30.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sam.png" width="256" height="256"/>
+    </resources>
+</document>

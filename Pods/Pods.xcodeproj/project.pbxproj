@@ -1,0 +1,2100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FBADE830FCFC8831465108A993A9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		02F25A25E8C371030D9C210F4EBCEDBF /* Pods-ngo-hub-2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BE11A87C0AD23391BC9AC9B91208EB /* Pods-ngo-hub-2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		040CF5E9F66DFFB1EB661B87EE74283E /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640438CCA03F57D23C8D7521EE13004A /* PagingInvalidationContext.swift */; };
+		0449FD5EE2C3D5D54E5A6AB47D341377 /* CAShapeLayer+XLayerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D48E76C7AF7BEF82F777C9A7E7E3A7D /* CAShapeLayer+XLayerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0692580015997A14E11EE267725E85B8 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDFAB4BA3EF314DA50583A8562D167 /* MinoruTextField.swift */; };
+		0894C4709CC4002A96C561E67E3CD20F /* XLineChartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F00950959DFE56DEDCB49E8704FC7ED9 /* XLineChartItem.m */; };
+		0896CCA43C84B57CC60C397873F3AA17 /* XLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 542EE2DE7B1B1ED12F26C8C805421864 /* XLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A86A533154AF2B96C438D4CE8095C0A /* XAbscissaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733FAC115996CF1455AF6B647C67280 /* XAbscissaView.m */; };
+		0D8EC946936D8220C79B4C2AF2B9DBD3 /* XNotificationBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = AE477056A490F8D8B0E8D3B3E9A04029 /* XNotificationBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EFF0A04FD8A7B414C27D93B25BCB275 /* XBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD1E210F4F233E3EEE128233B38ECE8 /* XBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFAACCB89F9F211E6FC41F3C9D1424E /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA7963D67625924F1EEEB399158735 /* UIEdgeInsets.swift */; };
+		115C48F6E7A4D41F75A43197C421B94B /* PagingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF4C1485B0B778CFAC6016BEE38CF /* PagingEvent.swift */; };
+		11B3F38E4710C964F51E515658596031 /* XStackAreaLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06395B4413F38EFFB343A6D944FEDEC9 /* XStackAreaLineContainerView.m */; };
+		14F1704EE9E61D3B75DC8CB45678BDC6 /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6A295E84E3AFD29C8E4F2DE1F04AE4 /* PagingMenuHorizontalAlignment.swift */; };
+		16D5CA6CFA6045EF36F9765CEA902397 /* UIGestureRecognizer+XGesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E706A7552E1C996C43FD161999D86DA3 /* UIGestureRecognizer+XGesHelper.m */; };
+		1857835D98D44DCFBC1C7DF1CB548EA5 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = DC16FFDD2DD9F2542F5BA3AA5E7BD140 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C09C08A2D4F31C6B7F9D000F7B764CA /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD67329734452FAD638A967403A1BF /* CAKeyframeAnimation+AHEasing.m */; };
+		21A746823ED5C0650D548166BD157049 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBD1115C200227B9CC0779F95794DD9 /* PagingIndicatorOptions.swift */; };
+		21DADF939E8C1FF7C4C12639AFA2B546 /* XBaseChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EE3B006482411F215C0787EF90E1CE /* XBaseChartConfiguration.m */; };
+		2200EA2C1C146563AD783DA25B14573E /* XLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69645DB206D49B5B4747FC9D041E3DA8 /* XLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B99B5AB93FFD61DE6623537B814924 /* XPositiveNegativeBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6538BF9A77E95B23A6DFFC1E08BF9C /* XPositiveNegativeBarContainerView.m */; };
+		237BC767BC2DF9E460373B563DDDA61C /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E082126BAA8E1FC459F0A72C26BFDE /* Tween.swift */; };
+		23D03F4F1C5E5DC37C80A89C7955AADC /* XBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C498DF4496A097EFFF8CB15E8E4A34F3 /* XBarContainerView.m */; };
+		25FC1FA2A370D3596A17B7EB208D3408 /* PagingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2770D4E23F6A65F48DD18C3E1A263 /* PagingStateMachine.swift */; };
+		2762CF44D0AED147E4D12E3EEB7BFE64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		28B62EC1309ECB6FE59AE7DDD5F3D5F0 /* XRandomNumerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C21CA277AAFC55782DBF29D3F904B4AF /* XRandomNumerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B084C408FB5B23F814AA1789241526A /* UIGestureRecognizer+XGesHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CEC27BF8435064A7BF49288E043AA2 /* UIGestureRecognizer+XGesHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B16262C3EB268F2BF9655662053015F /* XColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A374FB05FDC4E2967DE487D9B7A804 /* XColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C3CD8901AD988FC48E1D700D101846F /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B9F78A8D2C82F82041720B56B8945 /* AkiraTextField.swift */; };
+		2CE77FF00297235B1F431C6ED0CA3018 /* XAreaLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F07CDD4258CFBC5CA6B5653494E24552 /* XAreaLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA2EF144F96059FC8476967B870EA5F /* XStackAreaLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFDF82AA87BB6C9D97D15FDF9FFC9D8 /* XStackAreaLineChartConfiguration.m */; };
+		305642BDCA9CBB1DECAD600EF8B9875F /* IndexedPagingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C96FEF9249D5BAEBA8A21AC69B2064 /* IndexedPagingDataSource.swift */; };
+		33881CB00881CC988B846485D610E933 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5724A25837E9ED6BFB6FE8A6CF6540 /* UIView+constraints.swift */; };
+		33F9D734B46E2319B09FF88A997EAA9C /* XBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2C48AEEE37EBACAEC9946EBC88D7B /* XBarChartView.m */; };
+		35587AC3EBC61397EC006179588D27E6 /* IndexedPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A39C4897472CC9277247F37BD3BDF8 /* IndexedPagingItem.swift */; };
+		355B740F6485772E2A16B3E6B28A59C1 /* XPieItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A1C920C7E834F8CEAF7422545DC45 /* XPieItem.m */; };
+		35ADB3A8754FC4D6B396A3FEA914432D /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78513CC311A13CF4C70676F7BD366E2C /* PagingMenuInteraction.swift */; };
+		3A5AE0884848019DEB03FE53B1B3177E /* CAShapeLayer+XLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F7CC579661C22B674A683AB3ECEF44 /* CAShapeLayer+XLayerHelper.m */; };
+		3B11083900FCF34FBF57B21AF548BFC7 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D708E5A9AB6149DF38E1BCF1E522D0 /* PagingViewControllerInfiniteDataSource.swift */; };
+		3E51FA3171A0E23302784CCACE35C391 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F24C78D9B85924ADA0C38896EDFA62 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EF0FE6A90B63ECC9E6C62860F24E66F /* XBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36394333634332477D25E4EB66A1E72B /* XBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F22EDBCE3EE5A10BCEEA101912987F5 /* XLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0998A23D64C9E6C34CEAC04EA94C65 /* XLineChartView.m */; };
+		3F2A908BC934AB670E68175765FE1E92 /* Colours.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CF325F54B7689B340EBB8C329B17D8 /* Colours.framework */; };
+		3F7A9D7C18325FEBA0F685F48F3EF5B4 /* XJYChart.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7939D5331427275A425F9F7C7A77C4 /* XJYChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402998E89E8FA9C0541996E7E0AFD130 /* XLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 594C45DBF0F4DCA31E0A1F332A537E5C /* XLineChart.m */; };
+		407AC47CD0B703D15A58959C063950A5 /* XPositiveNegativeBarContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E927FE939A2ABEDC6049D5BE48B959 /* XPositiveNegativeBarContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C590F9EC096F3130A38495B63EC41A /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EB6887FEC2DACE8254B7A747832AA9 /* Colours.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C919DFA2926AD42E7F3ADD71C6532B /* XPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC13C5F4A92066C5CD24B2F52242D2C /* XPieChart.m */; };
+		468046B247794C3E0792471507B2A3F4 /* XBaseChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D7C3B173F74A9A2DF066EB0184108B /* XBaseChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BB897B41F7EE5027AB7F30AB13A7A7 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5701B48D6201F19F9E7422B56E6007 /* PagingViewController.swift */; };
+		497D720532E5A0BECB6C9D82146BD2F3 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA0A44B2554D90EECEBAE4C6357C75 /* PagingViewControllerDelegate.swift */; };
+		4C81D0661D71E5BD00F4094822B6CF8D /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36082348E0DF4EAD6E87FE15DA77FC /* PagingIndicatorLayoutAttributes.swift */; };
+		4E4C5AFE1AEAF1B59DB4A96630A4F76E /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F6A42F160B548C087512258568BBE /* PagingOptions.swift */; };
+		4E54E2B4177D1DC07E5245F55E9F6B66 /* XLineContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C69799EB7F2C06A9AF91D013AACEF1 /* XLineContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F90416C0EE501CC8FC358F163DE318A /* XPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5F841C7585CE9E0CE5AFA804225F38 /* XPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536486F4E87BF3591A631C0917AA5B41 /* XRandomNumerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D66ED8798D15881B6887DB89FF6B8458 /* XRandomNumerHelper.m */; };
+		59A44813D679596665DD3DE92D67BC72 /* OrdinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDA59829C320C1854B658390AA0C87 /* OrdinateView.m */; };
+		59B500E8461C76E186595BA40E6B0BE1 /* XPositiveNegativeBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7C2617D68983018299951419137948 /* XPositiveNegativeBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BC34E44ECAA1DC82D3210C1DDAB1B2 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4FE8F8B6EBAFA550DC6066F91EC88 /* HoshiTextField.swift */; };
+		5A5E45E8B63A5D1D3651230E730A86A3 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA70C9983DC4CC668F7EE9A438FD16 /* YokoTextField.swift */; };
+		5B02D0281B315102A9FA3EDFA7FF8551 /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F93F709BAF153F5F3EFEAEAF97236 /* PagingTitleCell.swift */; };
+		5B4B2277F2D4CEB5149CF1107AB194B8 /* XNotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C20D6615EDE0A90769DD04331E11EDA3 /* XNotificationBridge.m */; };
+		5F188A92F472541ABC3EAE42E9506571 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D06DD6AB4A04BFADF50A1F967F3BB59 /* QuartzCore.framework */; };
+		637895EF4C212C5DBD0BEA626F344A2E /* XAnimationPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FA75644561C1E338E828BFFE5EF7E /* XAnimationPath.m */; };
+		63BCD85682BD9EC6D1CAED0DEC2CDD61 /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A30CD5BF7B7E32A9B35F5C61F2D49E5 /* PagingMenuItemSource.swift */; };
+		67289CCF25752B1384EBA56C59DCB158 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DE1FD331B42C744891D634018897 /* PagingLayout.swift */; };
+		6A09C3ECE14FF05D100CF9B7D7015764 /* XLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF4581C96932B3C2DC55FB35670DBC2 /* XLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B0DF238DD967BB1FEE401540B62E377 /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DEA0D516588CC3293889AA01BCB84 /* InvalidationState.swift */; };
+		6B236FEA1D0464288628FC4A43BB3D3D /* XNormalLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 768FBC795D103E240595351E1560CF43 /* XNormalLineChartConfiguration.m */; };
+		6BEF6677BE3C64B692EB846D77FA07FD /* XLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8C25270400DA557D132674A3B80 /* XLineContainerView.m */; };
+		6D75A3DBA2A2675237912BD9480ECCD7 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994123284CE6D99EDD4E26BCAF68023 /* TextFieldEffects-dummy.m */; };
+		6DF3B58EAB568FAAF37B84548D877D0E /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B698FB97C0090D44A8BC4471512A74 /* PagingBorderOptions.swift */; };
+		6E14BCEBBF82C3AFFE97B23F877A0B68 /* XPositiveNegativeBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15E268A97BF8B857897995F86D6720 /* XPositiveNegativeBarChartView.m */; };
+		724E2111CBA9EE612C0F7EA0D96C79C0 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3719EB9AA6FB88E6046DD4F0C5AB3449 /* UIColor+interpolation.swift */; };
+		759F95C9D0DE2FEDE10057271161B3FF /* XLineChartItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 874F445E06ABA4608A367C0826CF79D3 /* XLineChartItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76783017A85F529727280A8715823C3D /* XAlignLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A47AE863E2C2E12EDA541C18346BB1C /* XAlignLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7720A359B53E38231F746D512578518E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		7778C7CDD566AE0BCD0F9F76091E1D98 /* XAbscissaView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A6D9DEDD618B2EF384382517146AE4 /* XAbscissaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A71F7A85BCE5C9F0C83C3EC222697B5 /* Pods-ngo-hub-2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 318AA0B93FCBFCE2088089D83CB73B28 /* Pods-ngo-hub-2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD7DD8B99ADE915E1B18E5D9EC04EF2 /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1B10D1B9F6F410120BCE93B2A43F13 /* PagingState.swift */; };
+		7CECC5D880410AA23A84D32EA0C1995C /* XEnumHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEAFC8E174D8B3FF5CDADAF52C0E459 /* XEnumHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF222604E83461E68E5FFF11C32F228 /* XAuxiliaryCalculationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 79681825F0584340E188B37B68021A81 /* XAuxiliaryCalculationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F427C8E1967E397A41D17E1E0ECB9F3 /* Colours-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E630BD2ACEB8C83B86189BE7803EF2 /* Colours-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849059FE75BE960C5E768F5F1F5E11F5 /* Parchment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E3FA2832DD0D671BBA664C0CF16EE2 /* Parchment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F2CB62B767E166C3ED063BF6A55D55 /* XLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 040284BD5631EEF129B4DDC76124F643 /* XLineChartConfiguration.m */; };
+		861F309488ECE4C06C48372DB6A4909E /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66161DA0AD24F04EFB98A0484C5FEAB /* PagingViewControllerDataSource.swift */; };
+		869AAAAB79DE3D796F0CF175A858F8D8 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A6ABF734F10443E0AE88803CFD4887 /* KaedeTextField.swift */; };
+		89D0E3D63EF0608B1C3AADC58A1872E1 /* XAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37047C6E98B884295F88B90E68A12DAC /* XAnimation.m */; };
+		8B0C9E592B060DB005333B7F561F9085 /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13395676DF836E32EDD6ED604B379F /* PagingContentInteraction.swift */; };
+		8C385CD19178C9E76B77C96173ACAF99 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324E3A74818FC3318B37140F79AFC30 /* PagingDirection.swift */; };
+		8DC6672C40454834AE4272B9A17E397A /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE97D27F30ADA85D0AF85E8D017DF8 /* PagingTransition.swift */; };
+		8E8208B6AFC0E19FBB66001306CFB0C2 /* XBarChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FF3BAAA5FC2D34F15D195ADD751BFD /* XBarChartConfiguration.m */; };
+		8F48458C42D115DC1959D9267CD8A58A /* XPieItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD09A697D539E5D2A4F1924B4397D60 /* XPieItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9757AFD2D342FF33E4927DEB96EEEE70 /* XAreaLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BADE9433E7443B3BC1AE359C7BCA226E /* XAreaLineContainerView.m */; };
+		97CA9B85CF7B87B7580AE88C605B5A67 /* CAKeyframeAnimation+AHEasing.h in Headers */ = {isa = PBXBuildFile; fileRef = 25460E5F5513E3D09AA7548A401DE04D /* CAKeyframeAnimation+AHEasing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0CEEC8D452AA3696E651015186EBB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		9ABC3D637FE6A8652428721437E5107D /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325418CFE4820FF55249353FB5DE4A0C /* PagingCell.swift */; };
+		9BDDAEA9F88FFA79DA6BBBD34CD0EE4F /* XJYChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EAB0A59EEC820486990504B11C32B0 /* XJYChart-dummy.m */; };
+		9CC4E9BC0BEBFD46AC66E9FFF9B4785C /* XAlignLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98176B790266F44F7A2E88C03CE5A1D4 /* XAlignLabel.m */; };
+		9E68F3A0967A6881BC7A43CD35551B3D /* XAnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9648A82F9B03E38F86976388F3D77A /* XAnimationLabel.m */; };
+		9EAECA3152165F1577E4B7ADC967D7E2 /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6C135CF196015741717D924218BCA /* PagingBorderView.swift */; };
+		9F8C703FE987B65695AEBAF8C28416AB /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C766C37F4C3B14779B46643EC58128 /* MadokaTextField.swift */; };
+		A1772F0D9455F4C64B4AEC699B5EB916 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5EA7390AE2CB18519B19739A20FBAB /* UIKit.framework */; };
+		A468DDA384DA2DBA8088B9F59F0BDB07 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C97D216B6F57A92286248022E8A367 /* PagingView.swift */; };
+		A62C9C79718B6D84CD7BC2960671840F /* OrdinateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 418E9AB90BD7679601DD42B1798801C3 /* OrdinateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C499288329DE4E6C5ADFAD5879129 /* EMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53DECFA7CFBE00EAD3AA9F7313E0F55 /* EMPageViewController.swift */; };
+		AA7DD012F7DA0571378AE9A0DE4AD6ED /* XStackAreaLineContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E06767EB95D48E6ACCF4CA43C652CF /* XStackAreaLineContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFEA50550CF46BB81184FED29E79AA8 /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB51AAFC33615138061E467BFB7BEE9 /* PagingDistance.swift */; };
+		AECF2D77E30D65EAA2FF5182AF2A8022 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B0A9FAF1C0CDEC49CC9D3072BC9BA /* PagingIndicatorMetric.swift */; };
+		AFD4A7A1A583696BA80BF88CFFE285D1 /* XAnimationLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A701391217A23E294A9834D5BAC9CA /* XAnimationLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFFA586186CE6DADFEB249D63FF457E2 /* XBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BE29CD3304395D1F781A79C7FA7258 /* XBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3ED10ECBBCD9487F27C4158AD5F666B /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BF784E8C970BFA24DB824601338078 /* IsaoTextField.swift */; };
+		B4719F72F20317B8B508E3EDC826F622 /* XStackAreaLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F55C2B339FDEFB07EDE1CC85B5351801 /* XStackAreaLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C4AFC676962C002A2ED4F1447EC385 /* Pods-ngo-hub-2Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A66A8FEA1A2EFA8C5ACF8FCE5889DAAB /* Pods-ngo-hub-2Tests-dummy.m */; };
+		B7D8EAFFA7D35E49F88F7A56227512BF /* XPositiveNegativeBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C315FDDCE1524EA6B89217B03E6F896 /* XPositiveNegativeBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94F6A34EEB804A430DB23D12B748977 /* XBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F2ED20C86F84CFDBDDAAF82A1ED7D5 /* XBarItem.m */; };
+		BAA6C3CBD2EB07F1B82D8E3D18901AA9 /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE500215303ECFAB7A7A22B7E6B37325 /* Colours-dummy.m */; };
+		BB19C0BA5E649B88076B09FA4F7DC6B4 /* XPositiveNegativeBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A81A72340436DB474F28F00BBD4451B /* XPositiveNegativeBarChart.m */; };
+		BB68AD439B6FDADD9DC5FC6FF2DDCA19 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFB1607C1CE26AF078E98401725C07 /* PagingMenuItemSize.swift */; };
+		BD15DF91AE57EB1F370CDEF36C8B2B57 /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4150E642D3BE08860F4661F2A6B0A /* PagingSelectedScrollPosition.swift */; };
+		BE891B7DB730BC82A52C7A2E14DD2F96 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF7C441984B23767A242F72BAAF8C8 /* JiroTextField.swift */; };
+		C080D0A060B13A0BC0F1D007F15B9B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		C4D090287044EC661E3E9DA812D456D7 /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD5D50803FAFC42F590BE597B5D748 /* PagingCellViewModel.swift */; };
+		C5D096BB218CB04F23FCF1D824FD0A0F /* Pods-ngo-hub-2Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2B43EFC25E5A1A474F9076A54214BD /* Pods-ngo-hub-2Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8440020DD40FD90360AEAD391FF100A /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B07BB94A73A4F844A250C4BF956E02 /* PagingBorderLayoutAttributes.swift */; };
+		C8AFCCD685521C5CE6E98F9D89B6F621 /* XAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2916CB36529408ACF71CF537C27FBC /* XAnimator.m */; };
+		C8D3F361539F136C95C01A03231F32DF /* XAnimationPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A662976712D9728EC905ECC7BC79EC /* XAnimationPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9711613DB96451FD2F0A63353EF0B40 /* XJYChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C6F4D1BDD8FF047E175F1FFF2C568D /* XJYChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA64788F67BE597E4E693F297B5D399A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245C9B1B04666156FE4144F61837B960 /* CoreGraphics.framework */; };
+		CBB1A936C52A9B894C60B842BF68A038 /* XAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA418B2A1EEF514B31A1095B3D05450E /* XAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCC3393DF906326B976006FA29633F6 /* Pods-ngo-hub-2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75841CE1749D05392794A7E6E63FAAC3 /* Pods-ngo-hub-2-dummy.m */; };
+		CBE6F76DDF44B9EC9032819D3252F43E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		CF62386982F486DBC8E1578E4430181D /* CALayer+XLayerSelectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C45981CFF38827E43DBBC5A0EF56973D /* CALayer+XLayerSelectHelper.m */; };
+		CF83E8EA00172B69228627CBE2B26480 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0730A5D2EAD1923D2B9F33ABECF6E6D6 /* PagingCellLayoutAttributes.swift */; };
+		D1031C6A2059166AD5A943525FFB47D2 /* XNormalLineChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F93A2A643F5437EDD0C6AE11D761D80 /* XNormalLineChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C73A4E5B799810A599AB2E7CCCB79D /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6547DBFD4516A5CFD0C9EE347D84E66 /* PagingCollectionViewLayout.swift */; };
+		D2F9EBD278C9BFA58D1DC1558212B8B8 /* XBarContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CA015B7A494DDBAD5B364DA0B2FB10 /* XBarContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35B4AC4E9A2568EB59E88CAECDD14E9 /* UIScrollView+near.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A9093FF42C479F9ED5F8028C7E27F /* UIScrollView+near.swift */; };
+		D457B426D121863F6763F2A67667EE3B /* Pods-ngo-hub-2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 891AA000AC01641F1BC9B55863B8D381 /* Pods-ngo-hub-2UITests-dummy.m */; };
+		D545287F11A4DE8A7A0ADE9B5BAA9B78 /* Parchment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D60DC0C8365FCCD7437900FCE776F9 /* Parchment-dummy.m */; };
+		D54E90B920438E7867DA9621EE51437C /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786150A75007BBD1C75D9C681FF74FC /* PagingDiff.swift */; };
+		D6514216D20E3214CB0778DCD2500BBD /* XBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BD09A4F531893FA7D7FF9A2A3579CEE8 /* XBarChart.m */; };
+		D928034CE74BBFAA8C1F753FA764DFED /* XPointDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82820ED16980AB7B5A238C6A57FB88 /* XPointDetect.m */; };
+		D9687D930A8139432014404950D48845 /* XAreaLineContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B2A66E97294EA01822532053F5016 /* XAreaLineContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC63D223E65B22E76AA537BD1FEA1DED /* XCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6D4DC0310683DB3DE706DC0315CC37 /* XCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5B1BEFA67605A4778D8C2A68A228A6 /* XCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E4B4EDA693DA1B5BC0414ED7B926E /* XCycleView.m */; };
+		E0975A19B29261813A01FDF68E6CDF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AC843558D6F7D838954363066DCC1 /* Foundation.framework */; };
+		E15BFBF4E2183798706DC34E5FBC8ABF /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F92A05FBC2F4E9F432B96920C05FA5 /* PagingItems.swift */; };
+		E3D03CC4AB174236790C8E8C61E5C2AE /* XAuxiliaryCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBAF96918EBFB2C98D914A2C8F4BFE2 /* XAuxiliaryCalculationHelper.m */; };
+		E44468FE9B7E3EF419890C6FA1154B3B /* XAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B315E7D626E600C5F0E5CF5A5FC8C3 /* XAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52CCC36DF2B079732CC874A54B7AEE8 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BE492217E4AD33B86B288CDFB4EA6 /* YoshikoTextField.swift */; };
+		E5E20205136CE5D52BCF23FFB32653F7 /* XColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 037D14D867C0ECD55852CBF41509160D /* XColor.m */; };
+		E611E95AB87D70E1ED164F314814487F /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF4B1E2997D2A4052DD2FDD47BA9BE9 /* PagingSizeCache.swift */; };
+		E67AB2DD9DA35F2D851D4C02C3105D4E /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7577963EE170E9EA44921D4FC47EAF7 /* TextFieldEffects.swift */; };
+		E6DE5E8343B97E2ED853562D2393060B /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CBBC0F96DA95D2865956D5D7B21B62 /* PagingMenuTransition.swift */; };
+		EDBEBC50B7F801AC66020AE8A5EF2FB0 /* XPointDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6713BA01B148EC0B3298EB240CBD2922 /* XPointDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED0DB0F1E842B3FE1EA0ADA5EF56101 /* XBarChartConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3381908F23B771CD28453F8ED225E7FD /* XBarChartConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF48603C8197309D96FEED43E658587F /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B553B2E59095FE1CB94FFE9F9BE9CF6 /* PagingIndicatorView.swift */; };
+		F4D1542D30F41E95DD911A6031E46217 /* XJYChartDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E9ECC03FE2EA419D3BCA75DCEFE5B61F /* XJYChartDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6296B1247C59D220FE18CD73CAD7978 /* FixedPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EA400AB66C2A0EBF91B3945895B7A /* FixedPagingViewController.swift */; };
+		FB8B89E77754777FCEB39ECABE282BEC /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB79EF03BE1EF39642E421509DDEABB /* PagingItem.swift */; };
+		FBF145ADDB2274395E797D350EA1432A /* CALayer+XLayerSelectHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 698D20BC86785152ADDBBF82D3FCAE07 /* CALayer+XLayerSelectHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE03FCB98A3DCACE84410003F8CD394F /* XAreaLineChartConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D02E07338E92DFD78E3361BE3447B01 /* XAreaLineChartConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C2EEEFAABA5EC36B8D1A6C85F1860F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8AB97E151C3CA4448B9467D52F19A36;
+			remoteInfo = Colours;
+		};
+		380827B01D8B915C2EC9DE9D40ECE03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8AB97E151C3CA4448B9467D52F19A36;
+			remoteInfo = Colours;
+		};
+		3DF8CBFC6BE59E29003DB6EA1CA81DCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745348498531D2C0552910E35709C1BC;
+			remoteInfo = XJYChart;
+		};
+		6CD706C8DECE9B3114D9A1BBEE37C916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E24E28AF9A5CAED6ED67D7ECFF2E81;
+			remoteInfo = TextFieldEffects;
+		};
+		6CDA4253178CE1E0044EE6B073E1B6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309DD7AC2E1F28CAB8AEDC7A6E190A4C;
+			remoteInfo = "Pods-ngo-hub-2";
+		};
+		700D56CB9A5662F27D1F900E811D9CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048FDB8514EE7F659053CD9E95CE5160;
+			remoteInfo = Parchment;
+		};
+		9B4AC2C233386190EB391356E53B45E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309DD7AC2E1F28CAB8AEDC7A6E190A4C;
+			remoteInfo = "Pods-ngo-hub-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010142C2D30F41FD838130C57B41F402 /* Pods-ngo-hub-2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ngo-hub-2-frameworks.sh"; sourceTree = "<group>"; };
+		02B2F6FB1DAD5649885809CAB51B2FFF /* Colours.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colours.modulemap; sourceTree = "<group>"; };
+		037D14D867C0ECD55852CBF41509160D /* XColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XColor.m; path = XJYChart/Color/XColor.m; sourceTree = "<group>"; };
+		040284BD5631EEF129B4DDC76124F643 /* XLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XLineChartConfiguration.m; sourceTree = "<group>"; };
+		0544CA3745A4200F267F33C858B66504 /* Pods-ngo-hub-2Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ngo-hub-2Tests-resources.sh"; sourceTree = "<group>"; };
+		062697AE83698139C944D12A775C20E3 /* Colours.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.xcconfig; sourceTree = "<group>"; };
+		06395B4413F38EFFB343A6D944FEDEC9 /* XStackAreaLineContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XStackAreaLineContainerView.m; path = XJYChart/ChartView/XStackAreaLineContainerView.m; sourceTree = "<group>"; };
+		06CEC27BF8435064A7BF49288E043AA2 /* UIGestureRecognizer+XGesHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+XGesHelper.h"; path = "XJYChart/Category/UIGestureRecognizer+XGesHelper.h"; sourceTree = "<group>"; };
+		0730A5D2EAD1923D2B9F33ABECF6E6D6 /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellLayoutAttributes.swift; path = Parchment/Classes/PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
+		07A2DE1FD331B42C744891D634018897 /* PagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingLayout.swift; path = Parchment/Protocols/PagingLayout.swift; sourceTree = "<group>"; };
+		07AF067C12E97521EF47D033B169D69B /* Pods-ngo-hub-2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ngo-hub-2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A0B2A66E97294EA01822532053F5016 /* XAreaLineContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAreaLineContainerView.h; path = XJYChart/ChartView/XAreaLineContainerView.h; sourceTree = "<group>"; };
+		0A2B43EFC25E5A1A474F9076A54214BD /* Pods-ngo-hub-2Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ngo-hub-2Tests-umbrella.h"; sourceTree = "<group>"; };
+		0AFABCD07FC022F5DED4A372AA5EE325 /* Pods-ngo-hub-2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ngo-hub-2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B6F6A42F160B548C087512258568BBE /* PagingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingOptions.swift; path = Parchment/Classes/PagingOptions.swift; sourceTree = "<group>"; };
+		0D06DD6AB4A04BFADF50A1F967F3BB59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0F312C747D4ADAEC8AF3B583E619934A /* Parchment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.xcconfig; sourceTree = "<group>"; };
+		1171A6285D34217A0C6887CF7133DD8A /* XJYChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XJYChart.framework; path = XJYChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		123A9093FF42C479F9ED5F8028C7E27F /* UIScrollView+near.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+near.swift"; path = "Parchment/Extensions/UIScrollView+near.swift"; sourceTree = "<group>"; };
+		14C96FEF9249D5BAEBA8A21AC69B2064 /* IndexedPagingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingDataSource.swift; path = Parchment/Classes/IndexedPagingDataSource.swift; sourceTree = "<group>"; };
+		16CA015B7A494DDBAD5B364DA0B2FB10 /* XBarContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarContainerView.h; path = XJYChart/ChartView/XBarContainerView.h; sourceTree = "<group>"; };
+		1733FAC115996CF1455AF6B647C67280 /* XAbscissaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAbscissaView.m; path = XJYChart/ChartView/XAbscissaView.m; sourceTree = "<group>"; };
+		181B0A9FAF1C0CDEC49CC9D3072BC9BA /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorMetric.swift; path = Parchment/Structs/PagingIndicatorMetric.swift; sourceTree = "<group>"; };
+		1872C8C25270400DA557D132674A3B80 /* XLineContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineContainerView.m; path = XJYChart/ChartView/XLineContainerView.m; sourceTree = "<group>"; };
+		18CD66A63420F65FAFAE3182D0EEB182 /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B39E82D6E13CBDA95E44FEF5C487717 /* Parchment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-prefix.pch"; sourceTree = "<group>"; };
+		1C315FDDCE1524EA6B89217B03E6F896 /* XPositiveNegativeBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPositiveNegativeBarChartView.h; path = XJYChart/ChartView/XPositiveNegativeBarChartView.h; sourceTree = "<group>"; };
+		1CB51AAFC33615138061E467BFB7BEE9 /* PagingDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDistance.swift; path = Parchment/Structs/PagingDistance.swift; sourceTree = "<group>"; };
+		1D02E07338E92DFD78E3361BE3447B01 /* XAreaLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAreaLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XAreaLineChartConfiguration.m; sourceTree = "<group>"; };
+		1D2916CB36529408ACF71CF537C27FBC /* XAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimator.m; path = XJYChart/Animator/XAnimator.m; sourceTree = "<group>"; };
+		1D7A1C920C7E834F8CEAF7422545DC45 /* XPieItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPieItem.m; path = XJYChart/DataModel/XPieItem.m; sourceTree = "<group>"; };
+		1E6D4DC0310683DB3DE706DC0315CC37 /* XCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCycleView.h; path = XJYChart/ChartView/XCycleView.h; sourceTree = "<group>"; };
+		20A374FB05FDC4E2967DE487D9B7A804 /* XColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XColor.h; path = XJYChart/Color/XColor.h; sourceTree = "<group>"; };
+		237EA400AB66C2A0EBF91B3945895B7A /* FixedPagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedPagingViewController.swift; path = Parchment/Classes/FixedPagingViewController.swift; sourceTree = "<group>"; };
+		245C9B1B04666156FE4144F61837B960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		25460E5F5513E3D09AA7548A401DE04D /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAKeyframeAnimation+AHEasing.h"; path = "XJYChart/AHEasing/CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		26E630BD2ACEB8C83B86189BE7803EF2 /* Colours-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-umbrella.h"; sourceTree = "<group>"; };
+		2C73175449AEC1A4909CBB6B446C3204 /* Pods-ngo-hub-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ngo-hub-2.release.xcconfig"; sourceTree = "<group>"; };
+		2C7F93F709BAF153F5F3EFEAEAF97236 /* PagingTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTitleCell.swift; path = Parchment/Classes/PagingTitleCell.swift; sourceTree = "<group>"; };
+		2DFF7C441984B23767A242F72BAAF8C8 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		2EFDF82AA87BB6C9D97D15FDF9FFC9D8 /* XStackAreaLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XStackAreaLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XStackAreaLineChartConfiguration.m; sourceTree = "<group>"; };
+		318AA0B93FCBFCE2088089D83CB73B28 /* Pods-ngo-hub-2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ngo-hub-2-umbrella.h"; sourceTree = "<group>"; };
+		325418CFE4820FF55249353FB5DE4A0C /* PagingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCell.swift; path = Parchment/Classes/PagingCell.swift; sourceTree = "<group>"; };
+		3381908F23B771CD28453F8ED225E7FD /* XBarChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarChartConfiguration.h; path = XJYChart/Configuration/BarChartConfiguration/XBarChartConfiguration.h; sourceTree = "<group>"; };
+		33EE3B006482411F215C0787EF90E1CE /* XBaseChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBaseChartConfiguration.m; path = XJYChart/Configuration/XBaseChartConfiguration.m; sourceTree = "<group>"; };
+		34FA0A44B2554D90EECEBAE4C6357C75 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		35D8E414929CADE39AD780A1296043C7 /* XJYChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJYChart-prefix.pch"; sourceTree = "<group>"; };
+		35F2ED20C86F84CFDBDDAAF82A1ED7D5 /* XBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarItem.m; path = XJYChart/DataModel/XBarItem.m; sourceTree = "<group>"; };
+		36394333634332477D25E4EB66A1E72B /* XBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarChartView.h; path = XJYChart/ChartView/XBarChartView.h; sourceTree = "<group>"; };
+		37047C6E98B884295F88B90E68A12DAC /* XAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimation.m; path = XJYChart/Animator/XAnimation.m; sourceTree = "<group>"; };
+		3719EB9AA6FB88E6046DD4F0C5AB3449 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+interpolation.swift"; path = "Parchment/Extensions/UIColor+interpolation.swift"; sourceTree = "<group>"; };
+		37517C1D82A5CD0744C2E7261DA821D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C97D216B6F57A92286248022E8A367 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
+		3A81A72340436DB474F28F00BBD4451B /* XPositiveNegativeBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPositiveNegativeBarChart.m; path = XJYChart/ChartView/XPositiveNegativeBarChart.m; sourceTree = "<group>"; };
+		3B553B2E59095FE1CB94FFE9F9BE9CF6 /* PagingIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorView.swift; path = Parchment/Classes/PagingIndicatorView.swift; sourceTree = "<group>"; };
+		3DF6C135CF196015741717D924218BCA /* PagingBorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderView.swift; path = Parchment/Classes/PagingBorderView.swift; sourceTree = "<group>"; };
+		40C69799EB7F2C06A9AF91D013AACEF1 /* XLineContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineContainerView.h; path = XJYChart/ChartView/XLineContainerView.h; sourceTree = "<group>"; };
+		418E9AB90BD7679601DD42B1798801C3 /* OrdinateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrdinateView.h; path = XJYChart/ChartView/OrdinateView.h; sourceTree = "<group>"; };
+		41C4FE8F8B6EBAFA550DC6066F91EC88 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		42BC83494D59A71D9C831BE144D52F38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B4150E642D3BE08860F4661F2A6B0A /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSelectedScrollPosition.swift; path = Parchment/Enums/PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
+		46F7CC579661C22B674A683AB3ECEF44 /* CAShapeLayer+XLayerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAShapeLayer+XLayerHelper.m"; path = "XJYChart/Category/CAShapeLayer+XLayerHelper.m"; sourceTree = "<group>"; };
+		4A5B9F78A8D2C82F82041720B56B8945 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		4C55FFAE1B27A7A9120A1871917B04D8 /* XJYChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XJYChart.modulemap; sourceTree = "<group>"; };
+		4EFD67329734452FAD638A967403A1BF /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAKeyframeAnimation+AHEasing.m"; path = "XJYChart/AHEasing/CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		504447C7726F9D204FF9CAB6F80E3CD4 /* Pods-ngo-hub-2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ngo-hub-2-acknowledgements.plist"; sourceTree = "<group>"; };
+		522418B48BE9171EAD24F1FB67B7C3C6 /* Parchment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parchment.modulemap; sourceTree = "<group>"; };
+		52565DC3A5AF362B7508CA2B7AF1AB31 /* Pods-ngo-hub-2UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ngo-hub-2UITests-frameworks.sh"; sourceTree = "<group>"; };
+		52D708E5A9AB6149DF38E1BCF1E522D0 /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerInfiniteDataSource.swift; path = Parchment/Protocols/PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		53B315E7D626E600C5F0E5CF5A5FC8C3 /* XAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimator.h; path = XJYChart/Animator/XAnimator.h; sourceTree = "<group>"; };
+		542EE2DE7B1B1ED12F26C8C805421864 /* XLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChart.h; path = XJYChart/ChartView/XLineChart.h; sourceTree = "<group>"; };
+		56C6F4D1BDD8FF047E175F1FFF2C568D /* XJYChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XJYChart-umbrella.h"; sourceTree = "<group>"; };
+		580AC843558D6F7D838954363066DCC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58CF325F54B7689B340EBB8C329B17D8 /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E3FA2832DD0D671BBA664C0CF16EE2 /* Parchment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-umbrella.h"; sourceTree = "<group>"; };
+		594C45DBF0F4DCA31E0A1F332A537E5C /* XLineChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChart.m; path = XJYChart/ChartView/XLineChart.m; sourceTree = "<group>"; };
+		5994123284CE6D99EDD4E26BCAF68023 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		5A47AE863E2C2E12EDA541C18346BB1C /* XAlignLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAlignLabel.h; path = XJYChart/ChartView/XAlignLabel.h; sourceTree = "<group>"; };
+		5A5724A25837E9ED6BFB6FE8A6CF6540 /* UIView+constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constraints.swift"; path = "Parchment/Extensions/UIView+constraints.swift"; sourceTree = "<group>"; };
+		5AD1E210F4F233E3EEE128233B38ECE8 /* XBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarChart.h; path = XJYChart/ChartView/XBarChart.h; sourceTree = "<group>"; };
+		5D48E76C7AF7BEF82F777C9A7E7E3A7D /* CAShapeLayer+XLayerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAShapeLayer+XLayerHelper.h"; path = "XJYChart/Category/CAShapeLayer+XLayerHelper.h"; sourceTree = "<group>"; };
+		5DDA7963D67625924F1EEEB399158735 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Parchment/Extensions/UIEdgeInsets.swift; sourceTree = "<group>"; };
+		5EB1CDCCB31E33209B5AA5EB3DF67595 /* Pods_ngo_hub_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ngo_hub_2UITests.framework; path = "Pods-ngo-hub-2UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B0C90B8BD3D1092D1BAEA64051314B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640438CCA03F57D23C8D7521EE13004A /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
+		664DEA0D516588CC3293889AA01BCB84 /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
+		6713BA01B148EC0B3298EB240CBD2922 /* XPointDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPointDetect.h; path = XJYChart/CALayerTouch/XPointDetect.h; sourceTree = "<group>"; };
+		68B698FB97C0090D44A8BC4471512A74 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderOptions.swift; path = Parchment/Enums/PagingBorderOptions.swift; sourceTree = "<group>"; };
+		68CBBC0F96DA95D2865956D5D7B21B62 /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
+		69645DB206D49B5B4747FC9D041E3DA8 /* XLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChartView.h; path = XJYChart/ChartView/XLineChartView.h; sourceTree = "<group>"; };
+		698D20BC86785152ADDBBF82D3FCAE07 /* CALayer+XLayerSelectHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+XLayerSelectHelper.h"; path = "XJYChart/Category/CALayer+XLayerSelectHelper.h"; sourceTree = "<group>"; };
+		6D36082348E0DF4EAD6E87FE15DA77FC /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorLayoutAttributes.swift; path = Parchment/Classes/PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
+		6D6538BF9A77E95B23A6DFFC1E08BF9C /* XPositiveNegativeBarContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPositiveNegativeBarContainerView.m; path = XJYChart/ChartView/XPositiveNegativeBarContainerView.m; sourceTree = "<group>"; };
+		6DA4E203D97690B89078F8652409FD79 /* Pods-ngo-hub-2Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ngo-hub-2Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F93A2A643F5437EDD0C6AE11D761D80 /* XNormalLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNormalLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XNormalLineChartConfiguration.h; sourceTree = "<group>"; };
+		73A6ABF734F10443E0AE88803CFD4887 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		73D60DC0C8365FCCD7437900FCE776F9 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
+		749E4B4EDA693DA1B5BC0414ED7B926E /* XCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCycleView.m; path = XJYChart/ChartView/XCycleView.m; sourceTree = "<group>"; };
+		75841CE1749D05392794A7E6E63FAAC3 /* Pods-ngo-hub-2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ngo-hub-2-dummy.m"; sourceTree = "<group>"; };
+		768FBC795D103E240595351E1560CF43 /* XNormalLineChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNormalLineChartConfiguration.m; path = XJYChart/Configuration/LineChartConfiguration/XNormalLineChartConfiguration.m; sourceTree = "<group>"; };
+		76C2770D4E23F6A65F48DD18C3E1A263 /* PagingStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStateMachine.swift; path = Parchment/Classes/PagingStateMachine.swift; sourceTree = "<group>"; };
+		76EB6887FEC2DACE8254B7A747832AA9 /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		7738F63895C9E3611F3D64DEC12238F4 /* XJYChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJYChart.xcconfig; sourceTree = "<group>"; };
+		78513CC311A13CF4C70676F7BD366E2C /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		78EAB0A59EEC820486990504B11C32B0 /* XJYChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJYChart-dummy.m"; sourceTree = "<group>"; };
+		79681825F0584340E188B37B68021A81 /* XAuxiliaryCalculationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAuxiliaryCalculationHelper.h; path = XJYChart/Calculate/XAuxiliaryCalculationHelper.h; sourceTree = "<group>"; };
+		7A15E268A97BF8B857897995F86D6720 /* XPositiveNegativeBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPositiveNegativeBarChartView.m; path = XJYChart/ChartView/XPositiveNegativeBarChartView.m; sourceTree = "<group>"; };
+		7AEC95923E17D4DABAC1C32D022C7B89 /* Pods-ngo-hub-2UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ngo-hub-2UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BFDFAB4BA3EF314DA50583A8562D167 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		7C5F841C7585CE9E0CE5AFA804225F38 /* XPieChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPieChart.h; path = XJYChart/ChartView/XPieChart.h; sourceTree = "<group>"; };
+		7DAFC25188A6A259E4D4128A22E2F4AF /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colours.framework; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E9648A82F9B03E38F86976388F3D77A /* XAnimationLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimationLabel.m; path = XJYChart/ChartView/XAnimationLabel.m; sourceTree = "<group>"; };
+		7EF4581C96932B3C2DC55FB35670DBC2 /* XLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XLineChartConfiguration.h; sourceTree = "<group>"; };
+		80C688548250FDF37525575FECE300D4 /* Pods-ngo-hub-2Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ngo-hub-2Tests-frameworks.sh"; sourceTree = "<group>"; };
+		82A701391217A23E294A9834D5BAC9CA /* XAnimationLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimationLabel.h; path = XJYChart/ChartView/XAnimationLabel.h; sourceTree = "<group>"; };
+		849F500F2D63840F198C31CF7A457ADA /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		874F445E06ABA4608A367C0826CF79D3 /* XLineChartItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLineChartItem.h; path = XJYChart/DataModel/XLineChartItem.h; sourceTree = "<group>"; };
+		891AA000AC01641F1BC9B55863B8D381 /* Pods-ngo-hub-2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ngo-hub-2UITests-dummy.m"; sourceTree = "<group>"; };
+		89A662976712D9728EC905ECC7BC79EC /* XAnimationPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimationPath.h; path = XJYChart/Animator/XAnimationPath.h; sourceTree = "<group>"; };
+		8DBAF96918EBFB2C98D914A2C8F4BFE2 /* XAuxiliaryCalculationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAuxiliaryCalculationHelper.m; path = XJYChart/Calculate/XAuxiliaryCalculationHelper.m; sourceTree = "<group>"; };
+		8EB79EF03BE1EF39642E421509DDEABB /* PagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItem.swift; path = Parchment/Protocols/PagingItem.swift; sourceTree = "<group>"; };
+		8F0998A23D64C9E6C34CEAC04EA94C65 /* XLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChartView.m; path = XJYChart/ChartView/XLineChartView.m; sourceTree = "<group>"; };
+		91E4EB97F884675B54B577A492B800C5 /* Pods-ngo-hub-2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ngo-hub-2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		939BE492217E4AD33B86B288CDFB4EA6 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94866C6A2AA6F7D3EAE9844EB9B39543 /* Pods-ngo-hub-2UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ngo-hub-2UITests-resources.sh"; sourceTree = "<group>"; };
+		98176B790266F44F7A2E88C03CE5A1D4 /* XAlignLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAlignLabel.m; path = XJYChart/ChartView/XAlignLabel.m; sourceTree = "<group>"; };
+		9A30CD5BF7B7E32A9B35F5C61F2D49E5 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSource.swift; path = Parchment/Enums/PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		9BC13C5F4A92066C5CD24B2F52242D2C /* XPieChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPieChart.m; path = XJYChart/ChartView/XPieChart.m; sourceTree = "<group>"; };
+		9FD09A697D539E5D2A4F1924B4397D60 /* XPieItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPieItem.h; path = XJYChart/DataModel/XPieItem.h; sourceTree = "<group>"; };
+		A0BE11A87C0AD23391BC9AC9B91208EB /* Pods-ngo-hub-2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ngo-hub-2UITests-umbrella.h"; sourceTree = "<group>"; };
+		A1A39C4897472CC9277247F37BD3BDF8 /* IndexedPagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingItem.swift; path = Parchment/Structs/IndexedPagingItem.swift; sourceTree = "<group>"; };
+		A4BF784E8C970BFA24DB824601338078 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		A5E927FE939A2ABEDC6049D5BE48B959 /* XPositiveNegativeBarContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPositiveNegativeBarContainerView.h; path = XJYChart/ChartView/XPositiveNegativeBarContainerView.h; sourceTree = "<group>"; };
+		A66A8FEA1A2EFA8C5ACF8FCE5889DAAB /* Pods-ngo-hub-2Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ngo-hub-2Tests-dummy.m"; sourceTree = "<group>"; };
+		A7F92A05FBC2F4E9F432B96920C05FA5 /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
+		A8D7C3B173F74A9A2DF066EB0184108B /* XBaseChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBaseChartConfiguration.h; path = XJYChart/Configuration/XBaseChartConfiguration.h; sourceTree = "<group>"; };
+		A9C766C37F4C3B14779B46643EC58128 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		AA13395676DF836E32EDD6ED604B379F /* PagingContentInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentInteraction.swift; path = Parchment/Enums/PagingContentInteraction.swift; sourceTree = "<group>"; };
+		AD7C2617D68983018299951419137948 /* XPositiveNegativeBarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPositiveNegativeBarChart.h; path = XJYChart/ChartView/XPositiveNegativeBarChart.h; sourceTree = "<group>"; };
+		AE477056A490F8D8B0E8D3B3E9A04029 /* XNotificationBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNotificationBridge.h; path = XJYChart/Helper/XNotificationBridge.h; sourceTree = "<group>"; };
+		B4A2C48AEEE37EBACAEC9946EBC88D7B /* XBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarChartView.m; path = XJYChart/ChartView/XBarChartView.m; sourceTree = "<group>"; };
+		B4A6D9DEDD618B2EF384382517146AE4 /* XAbscissaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAbscissaView.h; path = XJYChart/ChartView/XAbscissaView.h; sourceTree = "<group>"; };
+		B5C4CF4674F9B46FBB9BCF2BD8D9B97A /* Pods-ngo-hub-2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ngo-hub-2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B866FA0232244EB4D1915AA9041B3A93 /* Pods_ngo_hub_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ngo_hub_2Tests.framework; path = "Pods-ngo-hub-2Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA418B2A1EEF514B31A1095B3D05450E /* XAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAnimation.h; path = XJYChart/Animator/XAnimation.h; sourceTree = "<group>"; };
+		BADE9433E7443B3BC1AE359C7BCA226E /* XAreaLineContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAreaLineContainerView.m; path = XJYChart/ChartView/XAreaLineContainerView.m; sourceTree = "<group>"; };
+		BB6A295E84E3AFD29C8E4F2DE1F04AE4 /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuHorizontalAlignment.swift; path = Parchment/Enums/PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
+		BC5EA7390AE2CB18519B19739A20FBAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCB08E8E0C3437A0F886430E1E0104CA /* Pods-ngo-hub-2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ngo-hub-2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD09A4F531893FA7D7FF9A2A3579CEE8 /* XBarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarChart.m; path = XJYChart/ChartView/XBarChart.m; sourceTree = "<group>"; };
+		BE500215303ECFAB7A7A22B7E6B37325 /* Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colours-dummy.m"; sourceTree = "<group>"; };
+		C0B07BB94A73A4F844A250C4BF956E02 /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderLayoutAttributes.swift; path = Parchment/Classes/PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
+		C0EDA59829C320C1854B658390AA0C87 /* OrdinateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrdinateView.m; path = XJYChart/ChartView/OrdinateView.m; sourceTree = "<group>"; };
+		C0FD61FBE4ABEF52D35B31CD56598942 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20D6615EDE0A90769DD04331E11EDA3 /* XNotificationBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNotificationBridge.m; path = XJYChart/Helper/XNotificationBridge.m; sourceTree = "<group>"; };
+		C21CA277AAFC55782DBF29D3F904B4AF /* XRandomNumerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRandomNumerHelper.h; path = XJYChart/Calculate/XRandomNumerHelper.h; sourceTree = "<group>"; };
+		C45981CFF38827E43DBBC5A0EF56973D /* CALayer+XLayerSelectHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+XLayerSelectHelper.m"; path = "XJYChart/Category/CALayer+XLayerSelectHelper.m"; sourceTree = "<group>"; };
+		C498DF4496A097EFFF8CB15E8E4A34F3 /* XBarContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarContainerView.m; path = XJYChart/ChartView/XBarContainerView.m; sourceTree = "<group>"; };
+		C53DECFA7CFBE00EAD3AA9F7313E0F55 /* EMPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMPageViewController.swift; path = Parchment/Classes/EMPageViewController.swift; sourceTree = "<group>"; };
+		CABEF4C1485B0B778CFAC6016BEE38CF /* PagingEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingEvent.swift; path = Parchment/Enums/PagingEvent.swift; sourceTree = "<group>"; };
+		CB5701B48D6201F19F9E7422B56E6007 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Parchment/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		CBCE97D27F30ADA85D0AF85E8D017DF8 /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
+		CBDA70C9983DC4CC668F7EE9A438FD16 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		CC946725A77998261EB76267F7A8D15A /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		CD6FA75644561C1E338E828BFFE5EF7E /* XAnimationPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XAnimationPath.m; path = XJYChart/Animator/XAnimationPath.m; sourceTree = "<group>"; };
+		D1EDFE04E47C9DB8E553C805408904D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66161DA0AD24F04EFB98A0484C5FEAB /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDataSource.swift; path = Parchment/Protocols/PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
+		D66ED8798D15881B6887DB89FF6B8458 /* XRandomNumerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRandomNumerHelper.m; path = XJYChart/Calculate/XRandomNumerHelper.m; sourceTree = "<group>"; };
+		D710663115F46C70834078B48E99AAE9 /* Pods-ngo-hub-2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ngo-hub-2-resources.sh"; sourceTree = "<group>"; };
+		D7577963EE170E9EA44921D4FC47EAF7 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		D8E082126BAA8E1FC459F0A72C26BFDE /* Tween.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tween.swift; path = Parchment/Protocols/Tween.swift; sourceTree = "<group>"; };
+		D970A6275C591141CE77140F6EE8927A /* Pods-ngo-hub-2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ngo-hub-2.modulemap"; sourceTree = "<group>"; };
+		DAE64AD0972A86F90150D5140BA5A2EE /* Pods-ngo-hub-2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ngo-hub-2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBEAFC8E174D8B3FF5CDADAF52C0E459 /* XEnumHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XEnumHeader.h; path = XJYChart/Helper/XEnumHeader.h; sourceTree = "<group>"; };
+		DC16FFDD2DD9F2542F5BA3AA5E7BD140 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		DC6176C798CE31576F191BBFF8F56996 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0481AEA14E8840C7B3158928FE5C86 /* Pods-ngo-hub-2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ngo-hub-2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF82820ED16980AB7B5A238C6A57FB88 /* XPointDetect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPointDetect.m; path = XJYChart/CALayerTouch/XPointDetect.m; sourceTree = "<group>"; };
+		DFBD1115C200227B9CC0779F95794DD9 /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorOptions.swift; path = Parchment/Enums/PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		E0712C1C34C07F266DAD843B2C701891 /* Pods-ngo-hub-2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ngo-hub-2UITests.modulemap"; sourceTree = "<group>"; };
+		E0F67BBEFBD07AA687737CBEB8506698 /* Pods-ngo-hub-2Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ngo-hub-2Tests.modulemap"; sourceTree = "<group>"; };
+		E2714EC5D7EB873ABE236AD2608CDE31 /* Pods_ngo_hub_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ngo_hub_2.framework; path = "Pods-ngo-hub-2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E320C58EE5BB3E2A836FC207BE870984 /* Pods-ngo-hub-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ngo-hub-2.debug.xcconfig"; sourceTree = "<group>"; };
+		E4F24C78D9B85924ADA0C38896EDFA62 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		E6547DBFD4516A5CFD0C9EE347D84E66 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCollectionViewLayout.swift; path = Parchment/Classes/PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		E706A7552E1C996C43FD161999D86DA3 /* UIGestureRecognizer+XGesHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+XGesHelper.m"; path = "XJYChart/Category/UIGestureRecognizer+XGesHelper.m"; sourceTree = "<group>"; };
+		E786150A75007BBD1C75D9C681FF74FC /* PagingDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDiff.swift; path = Parchment/Structs/PagingDiff.swift; sourceTree = "<group>"; };
+		E7FF3BAAA5FC2D34F15D195ADD751BFD /* XBarChartConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XBarChartConfiguration.m; path = XJYChart/Configuration/BarChartConfiguration/XBarChartConfiguration.m; sourceTree = "<group>"; };
+		E942F280B024D68B8B24998B310B288A /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		E9ECC03FE2EA419D3BCA75DCEFE5B61F /* XJYChartDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XJYChartDelegate.h; path = XJYChart/XJYChartDelegate.h; sourceTree = "<group>"; };
+		EB1B10D1B9F6F410120BCE93B2A43F13 /* PagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingState.swift; path = Parchment/Enums/PagingState.swift; sourceTree = "<group>"; };
+		EB7939D5331427275A425F9F7C7A77C4 /* XJYChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XJYChart.h; path = XJYChart/XJYChart.h; sourceTree = "<group>"; };
+		EBDFB1607C1CE26AF078E98401725C07 /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSize.swift; path = Parchment/Enums/PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		EDF4B1E2997D2A4052DD2FDD47BA9BE9 /* PagingSizeCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSizeCache.swift; path = Parchment/Classes/PagingSizeCache.swift; sourceTree = "<group>"; };
+		F00950959DFE56DEDCB49E8704FC7ED9 /* XLineChartItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLineChartItem.m; path = XJYChart/DataModel/XLineChartItem.m; sourceTree = "<group>"; };
+		F047B4E3E101EAE472F272916F279C75 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07CDD4258CFBC5CA6B5653494E24552 /* XAreaLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAreaLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XAreaLineChartConfiguration.h; sourceTree = "<group>"; };
+		F2E06767EB95D48E6ACCF4CA43C652CF /* XStackAreaLineContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XStackAreaLineContainerView.h; path = XJYChart/ChartView/XStackAreaLineContainerView.h; sourceTree = "<group>"; };
+		F324E3A74818FC3318B37140F79AFC30 /* PagingDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDirection.swift; path = Parchment/Enums/PagingDirection.swift; sourceTree = "<group>"; };
+		F3615F4B609341798291E82DF54A1971 /* Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-prefix.pch"; sourceTree = "<group>"; };
+		F55C2B339FDEFB07EDE1CC85B5351801 /* XStackAreaLineChartConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XStackAreaLineChartConfiguration.h; path = XJYChart/Configuration/LineChartConfiguration/XStackAreaLineChartConfiguration.h; sourceTree = "<group>"; };
+		F7BE29CD3304395D1F781A79C7FA7258 /* XBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XBarItem.h; path = XJYChart/DataModel/XBarItem.h; sourceTree = "<group>"; };
+		F7FD5D50803FAFC42F590BE597B5D748 /* PagingCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellViewModel.swift; path = Parchment/Structs/PagingCellViewModel.swift; sourceTree = "<group>"; };
+		FB49EBCCCA8B80A3E8E395BE15721A91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		235A3B9E9112CB8F6E64C5A0683961BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C080D0A060B13A0BC0F1D007F15B9B0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BB31A9EEBA1CE17B873942C98A9621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FBADE830FCFC8831465108A993A9A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628CB5444CEC2DB2B855C13103A7D473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2A908BC934AB670E68175765FE1E92 /* Colours.framework in Frameworks */,
+				CA64788F67BE597E4E693F297B5D399A /* CoreGraphics.framework in Frameworks */,
+				9A0CEEC8D452AA3696E651015186EBB9 /* Foundation.framework in Frameworks */,
+				5F188A92F472541ABC3EAE42E9506571 /* QuartzCore.framework in Frameworks */,
+				A1772F0D9455F4C64B4AEC699B5EB916 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16D8B412CBBC1BD48102F47C9CF428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7720A359B53E38231F746D512578518E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2454773B17C18D88ADC07BC86F03260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE6F76DDF44B9EC9032819D3252F43E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA998D62BFB5F80C34F1A249DFB05E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0975A19B29261813A01FDF68E6CDF49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEE9AFA9F9897AC52633BF077ABCE6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2762CF44D0AED147E4D12E3EEB7BFE64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0771CFD8BEE86B196E31A548332DAFC8 /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				C53DECFA7CFBE00EAD3AA9F7313E0F55 /* EMPageViewController.swift */,
+				237EA400AB66C2A0EBF91B3945895B7A /* FixedPagingViewController.swift */,
+				14C96FEF9249D5BAEBA8A21AC69B2064 /* IndexedPagingDataSource.swift */,
+				A1A39C4897472CC9277247F37BD3BDF8 /* IndexedPagingItem.swift */,
+				664DEA0D516588CC3293889AA01BCB84 /* InvalidationState.swift */,
+				C0B07BB94A73A4F844A250C4BF956E02 /* PagingBorderLayoutAttributes.swift */,
+				68B698FB97C0090D44A8BC4471512A74 /* PagingBorderOptions.swift */,
+				3DF6C135CF196015741717D924218BCA /* PagingBorderView.swift */,
+				325418CFE4820FF55249353FB5DE4A0C /* PagingCell.swift */,
+				0730A5D2EAD1923D2B9F33ABECF6E6D6 /* PagingCellLayoutAttributes.swift */,
+				F7FD5D50803FAFC42F590BE597B5D748 /* PagingCellViewModel.swift */,
+				E6547DBFD4516A5CFD0C9EE347D84E66 /* PagingCollectionViewLayout.swift */,
+				AA13395676DF836E32EDD6ED604B379F /* PagingContentInteraction.swift */,
+				E786150A75007BBD1C75D9C681FF74FC /* PagingDiff.swift */,
+				F324E3A74818FC3318B37140F79AFC30 /* PagingDirection.swift */,
+				1CB51AAFC33615138061E467BFB7BEE9 /* PagingDistance.swift */,
+				CABEF4C1485B0B778CFAC6016BEE38CF /* PagingEvent.swift */,
+				6D36082348E0DF4EAD6E87FE15DA77FC /* PagingIndicatorLayoutAttributes.swift */,
+				181B0A9FAF1C0CDEC49CC9D3072BC9BA /* PagingIndicatorMetric.swift */,
+				DFBD1115C200227B9CC0779F95794DD9 /* PagingIndicatorOptions.swift */,
+				3B553B2E59095FE1CB94FFE9F9BE9CF6 /* PagingIndicatorView.swift */,
+				640438CCA03F57D23C8D7521EE13004A /* PagingInvalidationContext.swift */,
+				8EB79EF03BE1EF39642E421509DDEABB /* PagingItem.swift */,
+				A7F92A05FBC2F4E9F432B96920C05FA5 /* PagingItems.swift */,
+				07A2DE1FD331B42C744891D634018897 /* PagingLayout.swift */,
+				BB6A295E84E3AFD29C8E4F2DE1F04AE4 /* PagingMenuHorizontalAlignment.swift */,
+				78513CC311A13CF4C70676F7BD366E2C /* PagingMenuInteraction.swift */,
+				EBDFB1607C1CE26AF078E98401725C07 /* PagingMenuItemSize.swift */,
+				9A30CD5BF7B7E32A9B35F5C61F2D49E5 /* PagingMenuItemSource.swift */,
+				68CBBC0F96DA95D2865956D5D7B21B62 /* PagingMenuTransition.swift */,
+				0B6F6A42F160B548C087512258568BBE /* PagingOptions.swift */,
+				43B4150E642D3BE08860F4661F2A6B0A /* PagingSelectedScrollPosition.swift */,
+				EDF4B1E2997D2A4052DD2FDD47BA9BE9 /* PagingSizeCache.swift */,
+				EB1B10D1B9F6F410120BCE93B2A43F13 /* PagingState.swift */,
+				76C2770D4E23F6A65F48DD18C3E1A263 /* PagingStateMachine.swift */,
+				2C7F93F709BAF153F5F3EFEAEAF97236 /* PagingTitleCell.swift */,
+				CBCE97D27F30ADA85D0AF85E8D017DF8 /* PagingTransition.swift */,
+				38C97D216B6F57A92286248022E8A367 /* PagingView.swift */,
+				CB5701B48D6201F19F9E7422B56E6007 /* PagingViewController.swift */,
+				D66161DA0AD24F04EFB98A0484C5FEAB /* PagingViewControllerDataSource.swift */,
+				34FA0A44B2554D90EECEBAE4C6357C75 /* PagingViewControllerDelegate.swift */,
+				52D708E5A9AB6149DF38E1BCF1E522D0 /* PagingViewControllerInfiniteDataSource.swift */,
+				D8E082126BAA8E1FC459F0A72C26BFDE /* Tween.swift */,
+				3719EB9AA6FB88E6046DD4F0C5AB3449 /* UIColor+interpolation.swift */,
+				5DDA7963D67625924F1EEEB399158735 /* UIEdgeInsets.swift */,
+				123A9093FF42C479F9ED5F8028C7E27F /* UIScrollView+near.swift */,
+				5A5724A25837E9ED6BFB6FE8A6CF6540 /* UIView+constraints.swift */,
+				0D9962581E2CBAF9F37403BB42AD64A7 /* Support Files */,
+			);
+			name = Parchment;
+			path = Parchment;
+			sourceTree = "<group>";
+		};
+		0D9962581E2CBAF9F37403BB42AD64A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0FD61FBE4ABEF52D35B31CD56598942 /* Info.plist */,
+				522418B48BE9171EAD24F1FB67B7C3C6 /* Parchment.modulemap */,
+				0F312C747D4ADAEC8AF3B583E619934A /* Parchment.xcconfig */,
+				73D60DC0C8365FCCD7437900FCE776F9 /* Parchment-dummy.m */,
+				1B39E82D6E13CBDA95E44FEF5C487717 /* Parchment-prefix.pch */,
+				58E3FA2832DD0D671BBA664C0CF16EE2 /* Parchment-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Parchment";
+			sourceTree = "<group>";
+		};
+		278E9A29F4A3E30D15039366EE20FACF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EC8523C1D34967EEF04583A887FC4 /* Pods-ngo-hub-2 */,
+				DBF2CACB6F6F376F5858D20240912A6E /* Pods-ngo-hub-2Tests */,
+				6C6D9C2AFA66AB1CF0941D7ECE36A9F9 /* Pods-ngo-hub-2UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FDC91D5FE9249E1972918582ACB66F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CF325F54B7689B340EBB8C329B17D8 /* Colours.framework */,
+				A23F4831EEF31674195BC4BB29A0E6EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38115DD9F4CABFB5B9896972D6039708 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B2F6FB1DAD5649885809CAB51B2FFF /* Colours.modulemap */,
+				062697AE83698139C944D12A775C20E3 /* Colours.xcconfig */,
+				BE500215303ECFAB7A7A22B7E6B37325 /* Colours-dummy.m */,
+				F3615F4B609341798291E82DF54A1971 /* Colours-prefix.pch */,
+				26E630BD2ACEB8C83B86189BE7803EF2 /* Colours-umbrella.h */,
+				D1EDFE04E47C9DB8E553C805408904D2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Colours";
+			sourceTree = "<group>";
+		};
+		4865CDA91666571D101D4B3180974AFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB49EBCCCA8B80A3E8E395BE15721A91 /* Info.plist */,
+				4C55FFAE1B27A7A9120A1871917B04D8 /* XJYChart.modulemap */,
+				7738F63895C9E3611F3D64DEC12238F4 /* XJYChart.xcconfig */,
+				78EAB0A59EEC820486990504B11C32B0 /* XJYChart-dummy.m */,
+				35D8E414929CADE39AD780A1296043C7 /* XJYChart-prefix.pch */,
+				56C6F4D1BDD8FF047E175F1FFF2C568D /* XJYChart-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XJYChart";
+			sourceTree = "<group>";
+		};
+		48EBFC6D5259E700539D333E10E6F149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAFC25188A6A259E4D4128A22E2F4AF /* Colours.framework */,
+				18CD66A63420F65FAFAE3182D0EEB182 /* Parchment.framework */,
+				E2714EC5D7EB873ABE236AD2608CDE31 /* Pods_ngo_hub_2.framework */,
+				B866FA0232244EB4D1915AA9041B3A93 /* Pods_ngo_hub_2Tests.framework */,
+				5EB1CDCCB31E33209B5AA5EB3DF67595 /* Pods_ngo_hub_2UITests.framework */,
+				F047B4E3E101EAE472F272916F279C75 /* TextFieldEffects.framework */,
+				1171A6285D34217A0C6887CF7133DD8A /* XJYChart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6D9C2AFA66AB1CF0941D7ECE36A9F9 /* Pods-ngo-hub-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				61B0C90B8BD3D1092D1BAEA64051314B /* Info.plist */,
+				E0712C1C34C07F266DAD843B2C701891 /* Pods-ngo-hub-2UITests.modulemap */,
+				B5C4CF4674F9B46FBB9BCF2BD8D9B97A /* Pods-ngo-hub-2UITests-acknowledgements.markdown */,
+				7AEC95923E17D4DABAC1C32D022C7B89 /* Pods-ngo-hub-2UITests-acknowledgements.plist */,
+				891AA000AC01641F1BC9B55863B8D381 /* Pods-ngo-hub-2UITests-dummy.m */,
+				52565DC3A5AF362B7508CA2B7AF1AB31 /* Pods-ngo-hub-2UITests-frameworks.sh */,
+				94866C6A2AA6F7D3EAE9844EB9B39543 /* Pods-ngo-hub-2UITests-resources.sh */,
+				A0BE11A87C0AD23391BC9AC9B91208EB /* Pods-ngo-hub-2UITests-umbrella.h */,
+				07AF067C12E97521EF47D033B169D69B /* Pods-ngo-hub-2UITests.debug.xcconfig */,
+				DAE64AD0972A86F90150D5140BA5A2EE /* Pods-ngo-hub-2UITests.release.xcconfig */,
+			);
+			name = "Pods-ngo-hub-2UITests";
+			path = "Target Support Files/Pods-ngo-hub-2UITests";
+			sourceTree = "<group>";
+		};
+		77870938232CFD1C0BF5F84D9D28A942 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				4A5B9F78A8D2C82F82041720B56B8945 /* AkiraTextField.swift */,
+				41C4FE8F8B6EBAFA550DC6066F91EC88 /* HoshiTextField.swift */,
+				A4BF784E8C970BFA24DB824601338078 /* IsaoTextField.swift */,
+				2DFF7C441984B23767A242F72BAAF8C8 /* JiroTextField.swift */,
+				73A6ABF734F10443E0AE88803CFD4887 /* KaedeTextField.swift */,
+				A9C766C37F4C3B14779B46643EC58128 /* MadokaTextField.swift */,
+				7BFDFAB4BA3EF314DA50583A8562D167 /* MinoruTextField.swift */,
+				D7577963EE170E9EA44921D4FC47EAF7 /* TextFieldEffects.swift */,
+				CBDA70C9983DC4CC668F7EE9A438FD16 /* YokoTextField.swift */,
+				939BE492217E4AD33B86B288CDFB4EA6 /* YoshikoTextField.swift */,
+				7EC8AB19F316D6E472692E1C92F0929E /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2FDC91D5FE9249E1972918582ACB66F4 /* Frameworks */,
+				97F44D961CAFC5A65DFC9691BEDA2187 /* Pods */,
+				48EBFC6D5259E700539D333E10E6F149 /* Products */,
+				278E9A29F4A3E30D15039366EE20FACF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC8AB19F316D6E472692E1C92F0929E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37517C1D82A5CD0744C2E7261DA821D4 /* Info.plist */,
+				849F500F2D63840F198C31CF7A457ADA /* TextFieldEffects.modulemap */,
+				CC946725A77998261EB76267F7A8D15A /* TextFieldEffects.xcconfig */,
+				5994123284CE6D99EDD4E26BCAF68023 /* TextFieldEffects-dummy.m */,
+				E942F280B024D68B8B24998B310B288A /* TextFieldEffects-prefix.pch */,
+				E4F24C78D9B85924ADA0C38896EDFA62 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		97F44D961CAFC5A65DFC9691BEDA2187 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0ECA840CECE8226F2DB1F28021C45CA /* Colours */,
+				0771CFD8BEE86B196E31A548332DAFC8 /* Parchment */,
+				77870938232CFD1C0BF5F84D9D28A942 /* TextFieldEffects */,
+				BC1238DA7E0F43F1AE5CBC74E74C1006 /* XJYChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A23F4831EEF31674195BC4BB29A0E6EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				245C9B1B04666156FE4144F61837B960 /* CoreGraphics.framework */,
+				580AC843558D6F7D838954363066DCC1 /* Foundation.framework */,
+				0D06DD6AB4A04BFADF50A1F967F3BB59 /* QuartzCore.framework */,
+				BC5EA7390AE2CB18519B19739A20FBAB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BC1238DA7E0F43F1AE5CBC74E74C1006 /* XJYChart */ = {
+			isa = PBXGroup;
+			children = (
+				25460E5F5513E3D09AA7548A401DE04D /* CAKeyframeAnimation+AHEasing.h */,
+				4EFD67329734452FAD638A967403A1BF /* CAKeyframeAnimation+AHEasing.m */,
+				698D20BC86785152ADDBBF82D3FCAE07 /* CALayer+XLayerSelectHelper.h */,
+				C45981CFF38827E43DBBC5A0EF56973D /* CALayer+XLayerSelectHelper.m */,
+				5D48E76C7AF7BEF82F777C9A7E7E3A7D /* CAShapeLayer+XLayerHelper.h */,
+				46F7CC579661C22B674A683AB3ECEF44 /* CAShapeLayer+XLayerHelper.m */,
+				418E9AB90BD7679601DD42B1798801C3 /* OrdinateView.h */,
+				C0EDA59829C320C1854B658390AA0C87 /* OrdinateView.m */,
+				06CEC27BF8435064A7BF49288E043AA2 /* UIGestureRecognizer+XGesHelper.h */,
+				E706A7552E1C996C43FD161999D86DA3 /* UIGestureRecognizer+XGesHelper.m */,
+				B4A6D9DEDD618B2EF384382517146AE4 /* XAbscissaView.h */,
+				1733FAC115996CF1455AF6B647C67280 /* XAbscissaView.m */,
+				5A47AE863E2C2E12EDA541C18346BB1C /* XAlignLabel.h */,
+				98176B790266F44F7A2E88C03CE5A1D4 /* XAlignLabel.m */,
+				BA418B2A1EEF514B31A1095B3D05450E /* XAnimation.h */,
+				37047C6E98B884295F88B90E68A12DAC /* XAnimation.m */,
+				82A701391217A23E294A9834D5BAC9CA /* XAnimationLabel.h */,
+				7E9648A82F9B03E38F86976388F3D77A /* XAnimationLabel.m */,
+				89A662976712D9728EC905ECC7BC79EC /* XAnimationPath.h */,
+				CD6FA75644561C1E338E828BFFE5EF7E /* XAnimationPath.m */,
+				53B315E7D626E600C5F0E5CF5A5FC8C3 /* XAnimator.h */,
+				1D2916CB36529408ACF71CF537C27FBC /* XAnimator.m */,
+				F07CDD4258CFBC5CA6B5653494E24552 /* XAreaLineChartConfiguration.h */,
+				1D02E07338E92DFD78E3361BE3447B01 /* XAreaLineChartConfiguration.m */,
+				0A0B2A66E97294EA01822532053F5016 /* XAreaLineContainerView.h */,
+				BADE9433E7443B3BC1AE359C7BCA226E /* XAreaLineContainerView.m */,
+				79681825F0584340E188B37B68021A81 /* XAuxiliaryCalculationHelper.h */,
+				8DBAF96918EBFB2C98D914A2C8F4BFE2 /* XAuxiliaryCalculationHelper.m */,
+				5AD1E210F4F233E3EEE128233B38ECE8 /* XBarChart.h */,
+				BD09A4F531893FA7D7FF9A2A3579CEE8 /* XBarChart.m */,
+				3381908F23B771CD28453F8ED225E7FD /* XBarChartConfiguration.h */,
+				E7FF3BAAA5FC2D34F15D195ADD751BFD /* XBarChartConfiguration.m */,
+				36394333634332477D25E4EB66A1E72B /* XBarChartView.h */,
+				B4A2C48AEEE37EBACAEC9946EBC88D7B /* XBarChartView.m */,
+				16CA015B7A494DDBAD5B364DA0B2FB10 /* XBarContainerView.h */,
+				C498DF4496A097EFFF8CB15E8E4A34F3 /* XBarContainerView.m */,
+				F7BE29CD3304395D1F781A79C7FA7258 /* XBarItem.h */,
+				35F2ED20C86F84CFDBDDAAF82A1ED7D5 /* XBarItem.m */,
+				A8D7C3B173F74A9A2DF066EB0184108B /* XBaseChartConfiguration.h */,
+				33EE3B006482411F215C0787EF90E1CE /* XBaseChartConfiguration.m */,
+				20A374FB05FDC4E2967DE487D9B7A804 /* XColor.h */,
+				037D14D867C0ECD55852CBF41509160D /* XColor.m */,
+				1E6D4DC0310683DB3DE706DC0315CC37 /* XCycleView.h */,
+				749E4B4EDA693DA1B5BC0414ED7B926E /* XCycleView.m */,
+				DBEAFC8E174D8B3FF5CDADAF52C0E459 /* XEnumHeader.h */,
+				EB7939D5331427275A425F9F7C7A77C4 /* XJYChart.h */,
+				E9ECC03FE2EA419D3BCA75DCEFE5B61F /* XJYChartDelegate.h */,
+				542EE2DE7B1B1ED12F26C8C805421864 /* XLineChart.h */,
+				594C45DBF0F4DCA31E0A1F332A537E5C /* XLineChart.m */,
+				7EF4581C96932B3C2DC55FB35670DBC2 /* XLineChartConfiguration.h */,
+				040284BD5631EEF129B4DDC76124F643 /* XLineChartConfiguration.m */,
+				874F445E06ABA4608A367C0826CF79D3 /* XLineChartItem.h */,
+				F00950959DFE56DEDCB49E8704FC7ED9 /* XLineChartItem.m */,
+				69645DB206D49B5B4747FC9D041E3DA8 /* XLineChartView.h */,
+				8F0998A23D64C9E6C34CEAC04EA94C65 /* XLineChartView.m */,
+				40C69799EB7F2C06A9AF91D013AACEF1 /* XLineContainerView.h */,
+				1872C8C25270400DA557D132674A3B80 /* XLineContainerView.m */,
+				6F93A2A643F5437EDD0C6AE11D761D80 /* XNormalLineChartConfiguration.h */,
+				768FBC795D103E240595351E1560CF43 /* XNormalLineChartConfiguration.m */,
+				AE477056A490F8D8B0E8D3B3E9A04029 /* XNotificationBridge.h */,
+				C20D6615EDE0A90769DD04331E11EDA3 /* XNotificationBridge.m */,
+				7C5F841C7585CE9E0CE5AFA804225F38 /* XPieChart.h */,
+				9BC13C5F4A92066C5CD24B2F52242D2C /* XPieChart.m */,
+				9FD09A697D539E5D2A4F1924B4397D60 /* XPieItem.h */,
+				1D7A1C920C7E834F8CEAF7422545DC45 /* XPieItem.m */,
+				6713BA01B148EC0B3298EB240CBD2922 /* XPointDetect.h */,
+				DF82820ED16980AB7B5A238C6A57FB88 /* XPointDetect.m */,
+				AD7C2617D68983018299951419137948 /* XPositiveNegativeBarChart.h */,
+				3A81A72340436DB474F28F00BBD4451B /* XPositiveNegativeBarChart.m */,
+				1C315FDDCE1524EA6B89217B03E6F896 /* XPositiveNegativeBarChartView.h */,
+				7A15E268A97BF8B857897995F86D6720 /* XPositiveNegativeBarChartView.m */,
+				A5E927FE939A2ABEDC6049D5BE48B959 /* XPositiveNegativeBarContainerView.h */,
+				6D6538BF9A77E95B23A6DFFC1E08BF9C /* XPositiveNegativeBarContainerView.m */,
+				C21CA277AAFC55782DBF29D3F904B4AF /* XRandomNumerHelper.h */,
+				D66ED8798D15881B6887DB89FF6B8458 /* XRandomNumerHelper.m */,
+				F55C2B339FDEFB07EDE1CC85B5351801 /* XStackAreaLineChartConfiguration.h */,
+				2EFDF82AA87BB6C9D97D15FDF9FFC9D8 /* XStackAreaLineChartConfiguration.m */,
+				F2E06767EB95D48E6ACCF4CA43C652CF /* XStackAreaLineContainerView.h */,
+				06395B4413F38EFFB343A6D944FEDEC9 /* XStackAreaLineContainerView.m */,
+				4865CDA91666571D101D4B3180974AFC /* Support Files */,
+			);
+			name = XJYChart;
+			path = XJYChart;
+			sourceTree = "<group>";
+		};
+		C0ECA840CECE8226F2DB1F28021C45CA /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				CDA82D2B757B3512891E2C9E45226648 /* ObjC */,
+				38115DD9F4CABFB5B9896972D6039708 /* Support Files */,
+			);
+			name = Colours;
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		CC4EC8523C1D34967EEF04583A887FC4 /* Pods-ngo-hub-2 */ = {
+			isa = PBXGroup;
+			children = (
+				DC6176C798CE31576F191BBFF8F56996 /* Info.plist */,
+				D970A6275C591141CE77140F6EE8927A /* Pods-ngo-hub-2.modulemap */,
+				0AFABCD07FC022F5DED4A372AA5EE325 /* Pods-ngo-hub-2-acknowledgements.markdown */,
+				504447C7726F9D204FF9CAB6F80E3CD4 /* Pods-ngo-hub-2-acknowledgements.plist */,
+				75841CE1749D05392794A7E6E63FAAC3 /* Pods-ngo-hub-2-dummy.m */,
+				010142C2D30F41FD838130C57B41F402 /* Pods-ngo-hub-2-frameworks.sh */,
+				D710663115F46C70834078B48E99AAE9 /* Pods-ngo-hub-2-resources.sh */,
+				318AA0B93FCBFCE2088089D83CB73B28 /* Pods-ngo-hub-2-umbrella.h */,
+				E320C58EE5BB3E2A836FC207BE870984 /* Pods-ngo-hub-2.debug.xcconfig */,
+				2C73175449AEC1A4909CBB6B446C3204 /* Pods-ngo-hub-2.release.xcconfig */,
+			);
+			name = "Pods-ngo-hub-2";
+			path = "Target Support Files/Pods-ngo-hub-2";
+			sourceTree = "<group>";
+		};
+		CDA82D2B757B3512891E2C9E45226648 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				76EB6887FEC2DACE8254B7A747832AA9 /* Colours.h */,
+				DC16FFDD2DD9F2542F5BA3AA5E7BD140 /* Colours.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		DBF2CACB6F6F376F5858D20240912A6E /* Pods-ngo-hub-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42BC83494D59A71D9C831BE144D52F38 /* Info.plist */,
+				E0F67BBEFBD07AA687737CBEB8506698 /* Pods-ngo-hub-2Tests.modulemap */,
+				BCB08E8E0C3437A0F886430E1E0104CA /* Pods-ngo-hub-2Tests-acknowledgements.markdown */,
+				6DA4E203D97690B89078F8652409FD79 /* Pods-ngo-hub-2Tests-acknowledgements.plist */,
+				A66A8FEA1A2EFA8C5ACF8FCE5889DAAB /* Pods-ngo-hub-2Tests-dummy.m */,
+				80C688548250FDF37525575FECE300D4 /* Pods-ngo-hub-2Tests-frameworks.sh */,
+				0544CA3745A4200F267F33C858B66504 /* Pods-ngo-hub-2Tests-resources.sh */,
+				0A2B43EFC25E5A1A474F9076A54214BD /* Pods-ngo-hub-2Tests-umbrella.h */,
+				91E4EB97F884675B54B577A492B800C5 /* Pods-ngo-hub-2Tests.debug.xcconfig */,
+				DF0481AEA14E8840C7B3158928FE5C86 /* Pods-ngo-hub-2Tests.release.xcconfig */,
+			);
+			name = "Pods-ngo-hub-2Tests";
+			path = "Target Support Files/Pods-ngo-hub-2Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20E0164B9F7330F382F103B263A97023 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F25A25E8C371030D9C210F4EBCEDBF /* Pods-ngo-hub-2UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315163E4416EC1D949531D66A478E9C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E51FA3171A0E23302784CCACE35C391 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FB3EC06389662D04CA1A73B0C3690E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CA9B85CF7B87B7580AE88C605B5A67 /* CAKeyframeAnimation+AHEasing.h in Headers */,
+				FBF145ADDB2274395E797D350EA1432A /* CALayer+XLayerSelectHelper.h in Headers */,
+				0449FD5EE2C3D5D54E5A6AB47D341377 /* CAShapeLayer+XLayerHelper.h in Headers */,
+				A62C9C79718B6D84CD7BC2960671840F /* OrdinateView.h in Headers */,
+				2B084C408FB5B23F814AA1789241526A /* UIGestureRecognizer+XGesHelper.h in Headers */,
+				7778C7CDD566AE0BCD0F9F76091E1D98 /* XAbscissaView.h in Headers */,
+				76783017A85F529727280A8715823C3D /* XAlignLabel.h in Headers */,
+				CBB1A936C52A9B894C60B842BF68A038 /* XAnimation.h in Headers */,
+				AFD4A7A1A583696BA80BF88CFFE285D1 /* XAnimationLabel.h in Headers */,
+				C8D3F361539F136C95C01A03231F32DF /* XAnimationPath.h in Headers */,
+				E44468FE9B7E3EF419890C6FA1154B3B /* XAnimator.h in Headers */,
+				2CE77FF00297235B1F431C6ED0CA3018 /* XAreaLineChartConfiguration.h in Headers */,
+				D9687D930A8139432014404950D48845 /* XAreaLineContainerView.h in Headers */,
+				7DF222604E83461E68E5FFF11C32F228 /* XAuxiliaryCalculationHelper.h in Headers */,
+				0EFF0A04FD8A7B414C27D93B25BCB275 /* XBarChart.h in Headers */,
+				EED0DB0F1E842B3FE1EA0ADA5EF56101 /* XBarChartConfiguration.h in Headers */,
+				3EF0FE6A90B63ECC9E6C62860F24E66F /* XBarChartView.h in Headers */,
+				D2F9EBD278C9BFA58D1DC1558212B8B8 /* XBarContainerView.h in Headers */,
+				AFFA586186CE6DADFEB249D63FF457E2 /* XBarItem.h in Headers */,
+				468046B247794C3E0792471507B2A3F4 /* XBaseChartConfiguration.h in Headers */,
+				2B16262C3EB268F2BF9655662053015F /* XColor.h in Headers */,
+				DC63D223E65B22E76AA537BD1FEA1DED /* XCycleView.h in Headers */,
+				7CECC5D880410AA23A84D32EA0C1995C /* XEnumHeader.h in Headers */,
+				C9711613DB96451FD2F0A63353EF0B40 /* XJYChart-umbrella.h in Headers */,
+				3F7A9D7C18325FEBA0F685F48F3EF5B4 /* XJYChart.h in Headers */,
+				F4D1542D30F41E95DD911A6031E46217 /* XJYChartDelegate.h in Headers */,
+				0896CCA43C84B57CC60C397873F3AA17 /* XLineChart.h in Headers */,
+				6A09C3ECE14FF05D100CF9B7D7015764 /* XLineChartConfiguration.h in Headers */,
+				759F95C9D0DE2FEDE10057271161B3FF /* XLineChartItem.h in Headers */,
+				2200EA2C1C146563AD783DA25B14573E /* XLineChartView.h in Headers */,
+				4E54E2B4177D1DC07E5245F55E9F6B66 /* XLineContainerView.h in Headers */,
+				D1031C6A2059166AD5A943525FFB47D2 /* XNormalLineChartConfiguration.h in Headers */,
+				0D8EC946936D8220C79B4C2AF2B9DBD3 /* XNotificationBridge.h in Headers */,
+				4F90416C0EE501CC8FC358F163DE318A /* XPieChart.h in Headers */,
+				8F48458C42D115DC1959D9267CD8A58A /* XPieItem.h in Headers */,
+				EDBEBC50B7F801AC66020AE8A5EF2FB0 /* XPointDetect.h in Headers */,
+				59B500E8461C76E186595BA40E6B0BE1 /* XPositiveNegativeBarChart.h in Headers */,
+				B7D8EAFFA7D35E49F88F7A56227512BF /* XPositiveNegativeBarChartView.h in Headers */,
+				407AC47CD0B703D15A58959C063950A5 /* XPositiveNegativeBarContainerView.h in Headers */,
+				28B62EC1309ECB6FE59AE7DDD5F3D5F0 /* XRandomNumerHelper.h in Headers */,
+				B4719F72F20317B8B508E3EDC826F622 /* XStackAreaLineChartConfiguration.h in Headers */,
+				AA7DD012F7DA0571378AE9A0DE4AD6ED /* XStackAreaLineContainerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA49E1F75312CAE8603AACEDA95A5842 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F427C8E1967E397A41D17E1E0ECB9F3 /* Colours-umbrella.h in Headers */,
+				43C590F9EC096F3130A38495B63EC41A /* Colours.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EAEB414E611CC8B11C374D78A76DF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A71F7A85BCE5C9F0C83C3EC222697B5 /* Pods-ngo-hub-2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD22C067786EE45B4820DFDF0F893C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849059FE75BE960C5E768F5F1F5E11F5 /* Parchment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA1179EF4BE900E9BD1C22A34D95D31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D096BB218CB04F23FCF1D824FD0A0F /* Pods-ngo-hub-2Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		048FDB8514EE7F659053CD9E95CE5160 /* Parchment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D3A3DF58CABC6F53A511C74BF67D92 /* Build configuration list for PBXNativeTarget "Parchment" */;
+			buildPhases = (
+				EFDD22C067786EE45B4820DFDF0F893C /* Headers */,
+				8AEDF6B234620424933945FD0F184F01 /* Sources */,
+				C16D8B412CBBC1BD48102F47C9CF428A /* Frameworks */,
+				45684AFF82AD906DAF2464C3D1AA994C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parchment;
+			productName = Parchment;
+			productReference = 18CD66A63420F65FAFAE3182D0EEB182 /* Parchment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13E24E28AF9A5CAED6ED67D7ECFF2E81 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53F91D65EE1EC3EA087C20096ED4BB1 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				315163E4416EC1D949531D66A478E9C6 /* Headers */,
+				4B801B992F56A380D89E9E344063DAEE /* Sources */,
+				D2454773B17C18D88ADC07BC86F03260 /* Frameworks */,
+				40FE005714BF0BFB6C8673A513874AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = F047B4E3E101EAE472F272916F279C75 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		211055A3ABCE03744AFF10B299EFE040 /* Pods-ngo-hub-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A84438E6F446285BEFE5D7B5CDCB91 /* Build configuration list for PBXNativeTarget "Pods-ngo-hub-2UITests" */;
+			buildPhases = (
+				20E0164B9F7330F382F103B263A97023 /* Headers */,
+				806DEE9E666BFDF9980AAB468F1BDEEE /* Sources */,
+				40BB31A9EEBA1CE17B873942C98A9621 /* Frameworks */,
+				6C8FADE103E14C096FAD91F6B8D6F2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA3A49CE783DE6D98BE31E4DC58FD57 /* PBXTargetDependency */,
+			);
+			name = "Pods-ngo-hub-2UITests";
+			productName = "Pods-ngo-hub-2UITests";
+			productReference = 5EB1CDCCB31E33209B5AA5EB3DF67595 /* Pods_ngo_hub_2UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		309DD7AC2E1F28CAB8AEDC7A6E190A4C /* Pods-ngo-hub-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48855588ACD303BF0FE2BCCAE5BFAA /* Build configuration list for PBXNativeTarget "Pods-ngo-hub-2" */;
+			buildPhases = (
+				D2EAEB414E611CC8B11C374D78A76DF5 /* Headers */,
+				23E306857C6DAEE09E311FEE2201AEE8 /* Sources */,
+				DA998D62BFB5F80C34F1A249DFB05E13 /* Frameworks */,
+				0817ABED3ABF515D852C35165E5EF672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5A9BE207CF5BFCA89BD67CA99236D4 /* PBXTargetDependency */,
+				B075BB38771C94FC8692C9EFD302B983 /* PBXTargetDependency */,
+				5ABBAD2499C25229A58163D61A127E62 /* PBXTargetDependency */,
+				B7207C15770FCB678729DBC8C66A5146 /* PBXTargetDependency */,
+			);
+			name = "Pods-ngo-hub-2";
+			productName = "Pods-ngo-hub-2";
+			productReference = E2714EC5D7EB873ABE236AD2608CDE31 /* Pods_ngo_hub_2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		745348498531D2C0552910E35709C1BC /* XJYChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29320674D5B3B3E8337799EA1D230C81 /* Build configuration list for PBXNativeTarget "XJYChart" */;
+			buildPhases = (
+				34FB3EC06389662D04CA1A73B0C3690E /* Headers */,
+				F867121A0D20437F09AC57C34C695566 /* Sources */,
+				628CB5444CEC2DB2B855C13103A7D473 /* Frameworks */,
+				029C84E4C61F4FDCBFE75785B46313EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12DFE02113B75E47743AAB2A0F42B134 /* PBXTargetDependency */,
+			);
+			name = XJYChart;
+			productName = XJYChart;
+			productReference = 1171A6285D34217A0C6887CF7133DD8A /* XJYChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9E37A409A06C38FA8A4917A7FFB53CB /* Pods-ngo-hub-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986561490EEBE83E55A73BD6F65472B6 /* Build configuration list for PBXNativeTarget "Pods-ngo-hub-2Tests" */;
+			buildPhases = (
+				FEA1179EF4BE900E9BD1C22A34D95D31 /* Headers */,
+				A6BB45D9A589B9BBF6C7D093C15CF219 /* Sources */,
+				235A3B9E9112CB8F6E64C5A0683961BC /* Frameworks */,
+				F19A7398C7DFA828C75351A6F16B1523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776F9F29880572D56BE1AE7BB7AD0FF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ngo-hub-2Tests";
+			productName = "Pods-ngo-hub-2Tests";
+			productReference = B866FA0232244EB4D1915AA9041B3A93 /* Pods_ngo_hub_2Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8AB97E151C3CA4448B9467D52F19A36 /* Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BBB05E940AF6188A09D91A5FE388CA /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildPhases = (
+				CA49E1F75312CAE8603AACEDA95A5842 /* Headers */,
+				90151D04B366F878D876BF2677BD5178 /* Sources */,
+				DCEE9AFA9F9897AC52633BF077ABCE6F /* Frameworks */,
+				26ECFB4BFC5B60ED47F0841C48E82945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = 7DAFC25188A6A259E4D4128A22E2F4AF /* Colours.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 48EBFC6D5259E700539D333E10E6F149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8AB97E151C3CA4448B9467D52F19A36 /* Colours */,
+				048FDB8514EE7F659053CD9E95CE5160 /* Parchment */,
+				309DD7AC2E1F28CAB8AEDC7A6E190A4C /* Pods-ngo-hub-2 */,
+				C9E37A409A06C38FA8A4917A7FFB53CB /* Pods-ngo-hub-2Tests */,
+				211055A3ABCE03744AFF10B299EFE040 /* Pods-ngo-hub-2UITests */,
+				13E24E28AF9A5CAED6ED67D7ECFF2E81 /* TextFieldEffects */,
+				745348498531D2C0552910E35709C1BC /* XJYChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029C84E4C61F4FDCBFE75785B46313EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0817ABED3ABF515D852C35165E5EF672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26ECFB4BFC5B60ED47F0841C48E82945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FE005714BF0BFB6C8673A513874AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45684AFF82AD906DAF2464C3D1AA994C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8FADE103E14C096FAD91F6B8D6F2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19A7398C7DFA828C75351A6F16B1523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E306857C6DAEE09E311FEE2201AEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCC3393DF906326B976006FA29633F6 /* Pods-ngo-hub-2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B801B992F56A380D89E9E344063DAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3CD8901AD988FC48E1D700D101846F /* AkiraTextField.swift in Sources */,
+				59BC34E44ECAA1DC82D3210C1DDAB1B2 /* HoshiTextField.swift in Sources */,
+				B3ED10ECBBCD9487F27C4158AD5F666B /* IsaoTextField.swift in Sources */,
+				BE891B7DB730BC82A52C7A2E14DD2F96 /* JiroTextField.swift in Sources */,
+				869AAAAB79DE3D796F0CF175A858F8D8 /* KaedeTextField.swift in Sources */,
+				9F8C703FE987B65695AEBAF8C28416AB /* MadokaTextField.swift in Sources */,
+				0692580015997A14E11EE267725E85B8 /* MinoruTextField.swift in Sources */,
+				6D75A3DBA2A2675237912BD9480ECCD7 /* TextFieldEffects-dummy.m in Sources */,
+				E67AB2DD9DA35F2D851D4C02C3105D4E /* TextFieldEffects.swift in Sources */,
+				5A5E45E8B63A5D1D3651230E730A86A3 /* YokoTextField.swift in Sources */,
+				E52CCC36DF2B079732CC874A54B7AEE8 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806DEE9E666BFDF9980AAB468F1BDEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D457B426D121863F6763F2A67667EE3B /* Pods-ngo-hub-2UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEDF6B234620424933945FD0F184F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C499288329DE4E6C5ADFAD5879129 /* EMPageViewController.swift in Sources */,
+				F6296B1247C59D220FE18CD73CAD7978 /* FixedPagingViewController.swift in Sources */,
+				305642BDCA9CBB1DECAD600EF8B9875F /* IndexedPagingDataSource.swift in Sources */,
+				35587AC3EBC61397EC006179588D27E6 /* IndexedPagingItem.swift in Sources */,
+				6B0DF238DD967BB1FEE401540B62E377 /* InvalidationState.swift in Sources */,
+				C8440020DD40FD90360AEAD391FF100A /* PagingBorderLayoutAttributes.swift in Sources */,
+				6DF3B58EAB568FAAF37B84548D877D0E /* PagingBorderOptions.swift in Sources */,
+				9EAECA3152165F1577E4B7ADC967D7E2 /* PagingBorderView.swift in Sources */,
+				9ABC3D637FE6A8652428721437E5107D /* PagingCell.swift in Sources */,
+				CF83E8EA00172B69228627CBE2B26480 /* PagingCellLayoutAttributes.swift in Sources */,
+				C4D090287044EC661E3E9DA812D456D7 /* PagingCellViewModel.swift in Sources */,
+				D2C73A4E5B799810A599AB2E7CCCB79D /* PagingCollectionViewLayout.swift in Sources */,
+				8B0C9E592B060DB005333B7F561F9085 /* PagingContentInteraction.swift in Sources */,
+				D54E90B920438E7867DA9621EE51437C /* PagingDiff.swift in Sources */,
+				8C385CD19178C9E76B77C96173ACAF99 /* PagingDirection.swift in Sources */,
+				ACFEA50550CF46BB81184FED29E79AA8 /* PagingDistance.swift in Sources */,
+				115C48F6E7A4D41F75A43197C421B94B /* PagingEvent.swift in Sources */,
+				4C81D0661D71E5BD00F4094822B6CF8D /* PagingIndicatorLayoutAttributes.swift in Sources */,
+				AECF2D77E30D65EAA2FF5182AF2A8022 /* PagingIndicatorMetric.swift in Sources */,
+				21A746823ED5C0650D548166BD157049 /* PagingIndicatorOptions.swift in Sources */,
+				EF48603C8197309D96FEED43E658587F /* PagingIndicatorView.swift in Sources */,
+				040CF5E9F66DFFB1EB661B87EE74283E /* PagingInvalidationContext.swift in Sources */,
+				FB8B89E77754777FCEB39ECABE282BEC /* PagingItem.swift in Sources */,
+				E15BFBF4E2183798706DC34E5FBC8ABF /* PagingItems.swift in Sources */,
+				67289CCF25752B1384EBA56C59DCB158 /* PagingLayout.swift in Sources */,
+				14F1704EE9E61D3B75DC8CB45678BDC6 /* PagingMenuHorizontalAlignment.swift in Sources */,
+				35ADB3A8754FC4D6B396A3FEA914432D /* PagingMenuInteraction.swift in Sources */,
+				BB68AD439B6FDADD9DC5FC6FF2DDCA19 /* PagingMenuItemSize.swift in Sources */,
+				63BCD85682BD9EC6D1CAED0DEC2CDD61 /* PagingMenuItemSource.swift in Sources */,
+				E6DE5E8343B97E2ED853562D2393060B /* PagingMenuTransition.swift in Sources */,
+				4E4C5AFE1AEAF1B59DB4A96630A4F76E /* PagingOptions.swift in Sources */,
+				BD15DF91AE57EB1F370CDEF36C8B2B57 /* PagingSelectedScrollPosition.swift in Sources */,
+				E611E95AB87D70E1ED164F314814487F /* PagingSizeCache.swift in Sources */,
+				7AD7DD8B99ADE915E1B18E5D9EC04EF2 /* PagingState.swift in Sources */,
+				25FC1FA2A370D3596A17B7EB208D3408 /* PagingStateMachine.swift in Sources */,
+				5B02D0281B315102A9FA3EDFA7FF8551 /* PagingTitleCell.swift in Sources */,
+				8DC6672C40454834AE4272B9A17E397A /* PagingTransition.swift in Sources */,
+				A468DDA384DA2DBA8088B9F59F0BDB07 /* PagingView.swift in Sources */,
+				46BB897B41F7EE5027AB7F30AB13A7A7 /* PagingViewController.swift in Sources */,
+				861F309488ECE4C06C48372DB6A4909E /* PagingViewControllerDataSource.swift in Sources */,
+				497D720532E5A0BECB6C9D82146BD2F3 /* PagingViewControllerDelegate.swift in Sources */,
+				3B11083900FCF34FBF57B21AF548BFC7 /* PagingViewControllerInfiniteDataSource.swift in Sources */,
+				D545287F11A4DE8A7A0ADE9B5BAA9B78 /* Parchment-dummy.m in Sources */,
+				237BC767BC2DF9E460373B563DDDA61C /* Tween.swift in Sources */,
+				724E2111CBA9EE612C0F7EA0D96C79C0 /* UIColor+interpolation.swift in Sources */,
+				0FFAACCB89F9F211E6FC41F3C9D1424E /* UIEdgeInsets.swift in Sources */,
+				D35B4AC4E9A2568EB59E88CAECDD14E9 /* UIScrollView+near.swift in Sources */,
+				33881CB00881CC988B846485D610E933 /* UIView+constraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90151D04B366F878D876BF2677BD5178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA6C3CBD2EB07F1B82D8E3D18901AA9 /* Colours-dummy.m in Sources */,
+				1857835D98D44DCFBC1C7DF1CB548EA5 /* Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6BB45D9A589B9BBF6C7D093C15CF219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C4AFC676962C002A2ED4F1447EC385 /* Pods-ngo-hub-2Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F867121A0D20437F09AC57C34C695566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C09C08A2D4F31C6B7F9D000F7B764CA /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				CF62386982F486DBC8E1578E4430181D /* CALayer+XLayerSelectHelper.m in Sources */,
+				3A5AE0884848019DEB03FE53B1B3177E /* CAShapeLayer+XLayerHelper.m in Sources */,
+				59A44813D679596665DD3DE92D67BC72 /* OrdinateView.m in Sources */,
+				16D5CA6CFA6045EF36F9765CEA902397 /* UIGestureRecognizer+XGesHelper.m in Sources */,
+				0A86A533154AF2B96C438D4CE8095C0A /* XAbscissaView.m in Sources */,
+				9CC4E9BC0BEBFD46AC66E9FFF9B4785C /* XAlignLabel.m in Sources */,
+				89D0E3D63EF0608B1C3AADC58A1872E1 /* XAnimation.m in Sources */,
+				9E68F3A0967A6881BC7A43CD35551B3D /* XAnimationLabel.m in Sources */,
+				637895EF4C212C5DBD0BEA626F344A2E /* XAnimationPath.m in Sources */,
+				C8AFCCD685521C5CE6E98F9D89B6F621 /* XAnimator.m in Sources */,
+				FE03FCB98A3DCACE84410003F8CD394F /* XAreaLineChartConfiguration.m in Sources */,
+				9757AFD2D342FF33E4927DEB96EEEE70 /* XAreaLineContainerView.m in Sources */,
+				E3D03CC4AB174236790C8E8C61E5C2AE /* XAuxiliaryCalculationHelper.m in Sources */,
+				D6514216D20E3214CB0778DCD2500BBD /* XBarChart.m in Sources */,
+				8E8208B6AFC0E19FBB66001306CFB0C2 /* XBarChartConfiguration.m in Sources */,
+				33F9D734B46E2319B09FF88A997EAA9C /* XBarChartView.m in Sources */,
+				23D03F4F1C5E5DC37C80A89C7955AADC /* XBarContainerView.m in Sources */,
+				B94F6A34EEB804A430DB23D12B748977 /* XBarItem.m in Sources */,
+				21DADF939E8C1FF7C4C12639AFA2B546 /* XBaseChartConfiguration.m in Sources */,
+				E5E20205136CE5D52BCF23FFB32653F7 /* XColor.m in Sources */,
+				DE5B1BEFA67605A4778D8C2A68A228A6 /* XCycleView.m in Sources */,
+				9BDDAEA9F88FFA79DA6BBBD34CD0EE4F /* XJYChart-dummy.m in Sources */,
+				402998E89E8FA9C0541996E7E0AFD130 /* XLineChart.m in Sources */,
+				85F2CB62B767E166C3ED063BF6A55D55 /* XLineChartConfiguration.m in Sources */,
+				0894C4709CC4002A96C561E67E3CD20F /* XLineChartItem.m in Sources */,
+				3F22EDBCE3EE5A10BCEEA101912987F5 /* XLineChartView.m in Sources */,
+				6BEF6677BE3C64B692EB846D77FA07FD /* XLineContainerView.m in Sources */,
+				6B236FEA1D0464288628FC4A43BB3D3D /* XNormalLineChartConfiguration.m in Sources */,
+				5B4B2277F2D4CEB5149CF1107AB194B8 /* XNotificationBridge.m in Sources */,
+				45C919DFA2926AD42E7F3ADD71C6532B /* XPieChart.m in Sources */,
+				355B740F6485772E2A16B3E6B28A59C1 /* XPieItem.m in Sources */,
+				D928034CE74BBFAA8C1F753FA764DFED /* XPointDetect.m in Sources */,
+				BB19C0BA5E649B88076B09FA4F7DC6B4 /* XPositiveNegativeBarChart.m in Sources */,
+				6E14BCEBBF82C3AFFE97B23F877A0B68 /* XPositiveNegativeBarChartView.m in Sources */,
+				22B99B5AB93FFD61DE6623537B814924 /* XPositiveNegativeBarContainerView.m in Sources */,
+				536486F4E87BF3591A631C0917AA5B41 /* XRandomNumerHelper.m in Sources */,
+				2FA2EF144F96059FC8476967B870EA5F /* XStackAreaLineChartConfiguration.m in Sources */,
+				11B3F38E4710C964F51E515658596031 /* XStackAreaLineContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12DFE02113B75E47743AAB2A0F42B134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = D8AB97E151C3CA4448B9467D52F19A36 /* Colours */;
+			targetProxy = 380827B01D8B915C2EC9DE9D40ECE03E /* PBXContainerItemProxy */;
+		};
+		1B5A9BE207CF5BFCA89BD67CA99236D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = D8AB97E151C3CA4448B9467D52F19A36 /* Colours */;
+			targetProxy = 30C2EEEFAABA5EC36B8D1A6C85F1860F /* PBXContainerItemProxy */;
+		};
+		5ABBAD2499C25229A58163D61A127E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 13E24E28AF9A5CAED6ED67D7ECFF2E81 /* TextFieldEffects */;
+			targetProxy = 6CD706C8DECE9B3114D9A1BBEE37C916 /* PBXContainerItemProxy */;
+		};
+		776F9F29880572D56BE1AE7BB7AD0FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ngo-hub-2";
+			target = 309DD7AC2E1F28CAB8AEDC7A6E190A4C /* Pods-ngo-hub-2 */;
+			targetProxy = 9B4AC2C233386190EB391356E53B45E0 /* PBXContainerItemProxy */;
+		};
+		8BA3A49CE783DE6D98BE31E4DC58FD57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ngo-hub-2";
+			target = 309DD7AC2E1F28CAB8AEDC7A6E190A4C /* Pods-ngo-hub-2 */;
+			targetProxy = 6CDA4253178CE1E0044EE6B073E1B6D5 /* PBXContainerItemProxy */;
+		};
+		B075BB38771C94FC8692C9EFD302B983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parchment;
+			target = 048FDB8514EE7F659053CD9E95CE5160 /* Parchment */;
+			targetProxy = 700D56CB9A5662F27D1F900E811D9CBA /* PBXContainerItemProxy */;
+		};
+		B7207C15770FCB678729DBC8C66A5146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XJYChart;
+			target = 745348498531D2C0552910E35709C1BC /* XJYChart */;
+			targetProxy = 3DF8CBFC6BE59E29003DB6EA1CA81DCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08682137FD9290826385C6565999BA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE64AD0972A86F90150D5140BA5A2EE /* Pods-ngo-hub-2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ngo-hub-2UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ngo-hub-2UITests/Pods-ngo-hub-2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		097925C9397DC04C6431142272FC1B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		201B241A13777E229B605080260E301B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7738F63895C9E3611F3D64DEC12238F4 /* XJYChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJYChart/XJYChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJYChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XJYChart/XJYChart.modulemap";
+				PRODUCT_MODULE_NAME = XJYChart;
+				PRODUCT_NAME = XJYChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AF50ABDD32A93DFFEDDED4F49DAF594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0481AEA14E8840C7B3158928FE5C86 /* Pods-ngo-hub-2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ngo-hub-2Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ngo-hub-2Tests/Pods-ngo-hub-2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CEC55C6642BF775DB20385E9FC9B0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7738F63895C9E3611F3D64DEC12238F4 /* XJYChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJYChart/XJYChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJYChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XJYChart/XJYChart.modulemap";
+				PRODUCT_MODULE_NAME = XJYChart;
+				PRODUCT_NAME = XJYChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		534CC10B6590453960D7C49200A15D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC946725A77998261EB76267F7A8D15A /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		639F2C21FD15813027AFE759F25BCC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E4EB97F884675B54B577A492B800C5 /* Pods-ngo-hub-2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ngo-hub-2Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ngo-hub-2Tests/Pods-ngo-hub-2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		656A2E532D274B1F81BD1ACDCFF328EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F312C747D4ADAEC8AF3B583E619934A /* Parchment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D279A1BC1A699808A4158D20301FFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		81588AE835FBBFDBEFAC2C6A98ADD40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC946725A77998261EB76267F7A8D15A /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8914118C2D4930FADC49D69177AD291C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E320C58EE5BB3E2A836FC207BE870984 /* Pods-ngo-hub-2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ngo-hub-2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ngo-hub-2/Pods-ngo-hub-2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A2B077B293EF62C8A44206E7B7F2870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062697AE83698139C944D12A775C20E3 /* Colours.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				PRODUCT_MODULE_NAME = Colours;
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D33036C89010B793E9329B8A8B9C6AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AF067C12E97521EF47D033B169D69B /* Pods-ngo-hub-2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ngo-hub-2UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ngo-hub-2UITests/Pods-ngo-hub-2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E14CEBE53AB64A70872A94ED2056E7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F312C747D4ADAEC8AF3B583E619934A /* Parchment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4C08970FEC620F5BB511C6FD5E838EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062697AE83698139C944D12A775C20E3 /* Colours.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Colours/Colours-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Colours/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Colours/Colours.modulemap";
+				PRODUCT_MODULE_NAME = Colours;
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3E228825E2ABFF181F9FF97ACE3199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C73175449AEC1A4909CBB6B446C3204 /* Pods-ngo-hub-2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ngo-hub-2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ngo-hub-2/Pods-ngo-hub-2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29320674D5B3B3E8337799EA1D230C81 /* Build configuration list for PBXNativeTarget "XJYChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEC55C6642BF775DB20385E9FC9B0FB /* Debug */,
+				201B241A13777E229B605080260E301B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D279A1BC1A699808A4158D20301FFD7 /* Debug */,
+				097925C9397DC04C6431142272FC1B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A84438E6F446285BEFE5D7B5CDCB91 /* Build configuration list for PBXNativeTarget "Pods-ngo-hub-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33036C89010B793E9329B8A8B9C6AE6 /* Debug */,
+				08682137FD9290826385C6565999BA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986561490EEBE83E55A73BD6F65472B6 /* Build configuration list for PBXNativeTarget "Pods-ngo-hub-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639F2C21FD15813027AFE759F25BCC00 /* Debug */,
+				3AF50ABDD32A93DFFEDDED4F49DAF594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D3A3DF58CABC6F53A511C74BF67D92 /* Build configuration list for PBXNativeTarget "Parchment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656A2E532D274B1F81BD1ACDCFF328EC /* Debug */,
+				E14CEBE53AB64A70872A94ED2056E7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53F91D65EE1EC3EA087C20096ED4BB1 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81588AE835FBBFDBEFAC2C6A98ADD40B /* Debug */,
+				534CC10B6590453960D7C49200A15D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BBB05E940AF6188A09D91A5FE388CA /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2B077B293EF62C8A44206E7B7F2870 /* Debug */,
+				F4C08970FEC620F5BB511C6FD5E838EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF48855588ACD303BF0FE2BCCAE5BFAA /* Build configuration list for PBXNativeTarget "Pods-ngo-hub-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8914118C2D4930FADC49D69177AD291C /* Debug */,
+				FC3E228825E2ABFF181F9FF97ACE3199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
